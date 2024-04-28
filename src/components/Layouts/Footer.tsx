@@ -66,7 +66,6 @@ const Footer: React.FC = () => {
                                         <i className="fa-brands fa-youtube"></i>
                                     </a>
                                 </li>
-                               
                             </ul>
                         </div>
                     </div>

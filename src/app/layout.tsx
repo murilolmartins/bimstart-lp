@@ -7,15 +7,17 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 import 'swiper/css';
 import 'swiper/css/bundle';
 
-// Global Style
-import '../../public/styles/style.css';
-import '../../public/styles/responsive.css';
-import './globals.css';
+
 
 // App Showcase Home Style
 import '../../public/styles/app-home-page.css';
 // Business Consulting Home Page Style
 import '../../public/styles/business-consulting-home-page.css';
+
+// Global Style
+import '../../public/styles/style.css';
+import '../../public/styles/responsive.css';
+import './globals.css';
 
 import type { Metadata } from 'next';
 import { Inter, Saira } from 'next/font/google';
