@@ -1,22 +1,20 @@
-import '../../public/styles/bootstrap.min.css';
-import '../../public/styles/animate.min.css';
+import '../styles/bootstrap.min.css';
+import '../styles/animate.min.css';
 import 'animate.css';
-import '../../public/styles/all.min.css';
-import '../../public/styles/pe-icon-7-stroke.css';
+import '../styles/all.min.css';
+import '../styles/pe-icon-7-stroke.css';
 import 'react-accessible-accordion/dist/fancy-example.css';
 import 'swiper/css';
 import 'swiper/css/bundle';
 
-
-
 // App Showcase Home Style
-import '../../public/styles/app-home-page.css';
+import '../styles/app-home-page.css';
 // Business Consulting Home Page Style
-import '../../public/styles/business-consulting-home-page.css';
+import '../styles/business-consulting-home-page.css';
 
 // Global Style
-import '../../public/styles/style.css';
-import '../../public/styles/responsive.css';
+import '../styles/style.css';
+import '../styles/responsive.css';
 import './globals.css';
 
 import type { Metadata } from 'next';
@@ -42,7 +40,8 @@ const saira = Saira({
 
 export const metadata: Metadata = {
     title: 'BIM START',
-    description: 'BIM START is a leading provider of reality capture and 3D modeling services for a wide range of industries.',
+    description:
+        'BIM START is a leading provider of reality capture and 3D modeling services for a wide range of industries.'
 };
 
 export default function RootLayout({
