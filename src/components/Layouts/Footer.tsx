@@ -66,12 +66,7 @@ const Footer: React.FC = () => {
                                         <i className="fa-brands fa-youtube"></i>
                                     </a>
                                 </li>
-                                <Link
-                                    href="/contact-us/"
-                                    className="btn btn-primary"
-                                >
-                                    Corporativo
-                                </Link>
+                               
                             </ul>
                         </div>
                     </div>
