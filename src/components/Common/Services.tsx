@@ -15,7 +15,7 @@ interface ServicesProps {
 const Services = ({ servicesData , title}: ServicesProps) => {
     return (
         <>
-            <div className="pt-100 pb-70 bc-bg-f3f4f7">
+            <div className="pt-100 pb-70">
                 <div className="container">
                     <div className="section-title">
                         <h2>{title}</h2>
