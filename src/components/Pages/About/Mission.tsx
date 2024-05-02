@@ -34,7 +34,7 @@ const Mission: React.FC = () => {
                             className="about-content about-content-two"
                             data-aos="fade-in"
                             data-aos-duration="1000"
-                            data-aos-delay="400"
+                            data-aos-delay="100"
                         >
                             <div className="section-title">
                                 <h2>Nossa Missão</h2>

@@ -16,18 +16,15 @@ const AboutUs: React.FC = () => {
                 <div className="container">
                     <div className="d-flex gap-4 about-us-container">
                         <div className="col-lg-6 col-md-12 d-flex flex-column gap-2 images-container">
-                            <div
-                                className="bc-what-we-do-image"
-                                
-                            >
+                            <div className="bc-what-we-do-image">
                                 <Image
                                     src={ceoTalkingImg}
                                     alt="image"
                                     width={650}
                                     height={476}
                                     style={{
-                                      width: '100%',
-                                      borderRadius: '5px'
+                                        width: '100%',
+                                        borderRadius: '5px'
                                     }}
                                 />
                             </div>
@@ -43,7 +40,7 @@ const AboutUs: React.FC = () => {
                                         width={440}
                                         height={476}
                                         style={{
-                                          borderRadius: '5px'
+                                            borderRadius: '5px'
                                         }}
                                     />
                                 </div>
@@ -71,7 +68,7 @@ const AboutUs: React.FC = () => {
                                             alt="image"
                                             width={80}
                                             height={80}
-                                            className='card-image'
+                                            className="card-image"
                                         />
                                         <div className="bc-what-we-do-box">
                                             <h3>Tecnologia</h3>
@@ -89,7 +86,7 @@ const AboutUs: React.FC = () => {
                                             alt="image"
                                             width={80}
                                             height={80}
-                                            className='card-image'
+                                            className="card-image"
                                         />
                                         <div className="bc-what-we-do-box">
                                             <h3>Infinitas possibilidades</h3>
@@ -108,9 +105,7 @@ const AboutUs: React.FC = () => {
                                 style={{
                                     textAlign: 'center'
                                 }}
-                                data-aos="fade-up"
-                                data-aos-duration="1000"
-                                data-aos-delay="100"
+                                
                             >
                                 <Link
                                     href="/portfolio"

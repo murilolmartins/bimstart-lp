@@ -7,26 +7,26 @@ export const valuesData = [
     {
         image: '/images/about/values/card-2.png',
         title: 'HONESTIDADE',
-        aosDelay: '200'
+        aosDelay: '150'
     },
     {
         image: '/images/about/values/card-3.png',
         title: 'ÉTICA',
-        aosDelay: '300'
+        aosDelay: '200'
     },
     {
         image: '/images/about/values/card-4.png',
         title: 'AGILIDADE',
-        aosDelay: '400'
+        aosDelay: '250'
     },
     {
         image: '/images/about/values/card-5.png',
         title: 'INVENTIVIDADE',
-        aosDelay: '500'
+        aosDelay: '300'
     },
     {
         image: '/images/about/values/card-6.png',
         title: 'COMPROMISSO',
-        aosDelay: '600'
+        aosDelay: '350'
     }
 ];

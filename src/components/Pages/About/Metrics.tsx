@@ -55,7 +55,7 @@ const Metrics: React.FC = () => {
                     <div className="row justify-content-center">
                         {metricsData &&
                             metricsData.slice(0, 4).map((value, i) => (
-                                <div className="col-lg-3 col-sm-6" key={i}>
+                                <div className="col-lg-3 col-sm-6" key={value.shortText}>
                                     <div
                                         className="funfact"
                                         data-aos="fade-up"

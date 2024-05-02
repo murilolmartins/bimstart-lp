@@ -15,10 +15,8 @@ const Values = () => {
                             valuesData.map((value, i) => (
                                 <div
                                     className="col-lg-4 col-sm-6"
-                                    key={i}
-                                    data-aos="fade-in"
-                                    data-aos-duration="1000"
-                                    data-aos-delay={value.aosDelay}
+                                    key={value.title}
+                                    
                                 >
                                     <div className="service-card-one bg-fcfbfb bg-white border-0 text-center">
                                         <Image

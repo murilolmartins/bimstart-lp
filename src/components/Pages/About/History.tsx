@@ -14,9 +14,7 @@ const History: React.FC = () => {
                     <div className="col-lg-12 col-md-12">
                         <div
                             className="bc-who-we-are-content"
-                            data-aos="fade-in"
-                            data-aos-duration="1000"
-                            data-aos-delay="100"
+                            
                         >
                             <p>
                                 Nascida em 2018 e sediada em Curitiba-PR, a BIM

@@ -87,13 +87,10 @@ const TeamMember: React.FC = () => {
                             teamMemberData.slice(0, 3).map((value, i) => (
                                 <div
                                     className="col-lg-4 col-md-6 col-sm-6"
-                                    key={i}
+                                    key={value.name}
                                 >
                                     <div
-                                        className="dm-team-member"
-                                        data-aos="fade-up"
-                                        data-aos-duration="1000"
-                                        data-aos-delay={value.aosDelay}
+                                        
                                     >
                                         <Image
                                             src={value.image}
