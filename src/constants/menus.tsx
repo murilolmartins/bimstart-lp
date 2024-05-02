@@ -1,11 +1,11 @@
 export const menus = [
     {
         label: 'Home',
-        link: '/bim'
+        link: '/'
     },
     {
         label: 'Sobre',
-        link: '/bim/sobre/'
+        link: '/about'
     },
     {
         label: 'Serviços',

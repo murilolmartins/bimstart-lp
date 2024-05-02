@@ -1,6 +1,6 @@
 import Services from '@/components/Common/Services';
 import Footer from '@/components/Layouts/Footer';
-import NavbarTwo from '@/components/Layouts/NavbarTwo';
+import Navbar from '@/components/Layouts/Navbar';
 import Equipments from '@/components/Pages/Home/Equipments';
 import HowItWorks from '@/components/Pages/Home/HowItWorks';
 import MainBanner from '@/components/Pages/Home/MainBanner';
@@ -13,7 +13,7 @@ import React from 'react';
 export default function Page() {
     return (
         <>
-            <NavbarTwo />
+            <Navbar />
 
             <MainBanner />
 

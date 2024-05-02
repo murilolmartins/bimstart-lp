@@ -934,13 +934,13 @@
   .case-studies-area .view-more-work {
     margin-top: 0;
   }
-  .cta-area-two .cta-content h3 {
+  .team-area .cta-content h3 {
     font-size: 30px;
   }
-  .cta-area-two .cta-btn-box {
+  .team-area .cta-btn-box {
     margin-top: 30px;
   }
-  .cta-area-two .cta-btn-box .custom-btn {
+  .team-area .cta-btn-box .custom-btn {
     padding: 10px 20px;
     font-size: 14px;
   }
@@ -1711,13 +1711,13 @@
   .work-card .content h3 {
     font-size: 22px;
   }
-  .cta-area-two .cta-content h3 {
+  .team-area .cta-content h3 {
     font-size: 35px;
   }
-  .cta-area-two .cta-btn-box {
+  .team-area .cta-btn-box {
     margin-top: 35px;
   }
-  .cta-area-two .cta-btn-box .custom-btn {
+  .team-area .cta-btn-box .custom-btn {
     padding: 15px 30px;
     font-size: 15px;
   }
@@ -2090,7 +2090,7 @@
   .work-card .content h3 {
     font-size: 22px;
   }
-  .cta-area-two .cta-content h3 {
+  .team-area .cta-content h3 {
     font-size: 50px;
   }
   .lg-portfolio .work-card .content {

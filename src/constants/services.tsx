@@ -53,7 +53,7 @@ export const servicesData1 = [
         shortText:
             'Auxilia no planejamento de minas, otimizando a extração e garantindo a segurança dos trabalhadores.',
         viewDetails: '/services/service-details/',
-        aosDelay: '500'
+        aosDelay: '700'
     },
     {
         image: '/images/home/services/card-8.png',
@@ -61,7 +61,7 @@ export const servicesData1 = [
         shortText:
             'É fundamental para o planejamento e manutenção de estradas, pontes e outras infraestruturas, garantindo a segurança e eficiência das operações.',
         viewDetails: '/services/service-details/',
-        aosDelay: '600'
+        aosDelay: '800'
     }
 ];
 
@@ -120,7 +120,7 @@ export const servicesData2 = [
         shortText:
             'Levantamentos batimétricos convencionais substituídos por USV’s, aumentando produtividade, reduzindo custos e garantindo segurança da equipe.',
         viewDetails: '/services/service-details/',
-        aosDelay: '500'
+        aosDelay: '700'
     },
     {
         image: '/images/home/services-2/card-8.png',
@@ -128,6 +128,6 @@ export const servicesData2 = [
         shortText:
             'É fundamental para o planejamento e manutenção de estradas, pontes e outras infraestruturas, garantindo a segurança e eficiência das operações.',
         viewDetails: '/services/service-details/',
-        aosDelay: '600'
+        aosDelay: '800'
     }
 ];

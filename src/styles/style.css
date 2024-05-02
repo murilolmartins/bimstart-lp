@@ -50,17 +50,26 @@ body {
   color: #646464;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-saira);
   color: #18181b;
   font-weight: bold;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: bold;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   font-weight: 600;
 }
 
@@ -312,7 +321,8 @@ a:hover, a:focus {
   font-size: 17px;
   font-weight: 600;
 }
-.section-title.white-color .sub-title, .section-title.white-color h2 {
+.section-title.white-color .sub-title,
+.section-title.white-color h2 {
   color: #ffffff;
 }
 .section-title .sub-title {
@@ -954,10 +964,12 @@ Main Banner CSS
   font-size: 20px;
   padding-left: 3px;
 }
-.hero-slider .swiper-button-prev:hover, .hero-slider .swiper-button-next:hover {
+.hero-slider .swiper-button-prev:hover,
+.hero-slider .swiper-button-next:hover {
   background-color: #519b00;
 }
-.hero-slider .swiper-button-prev:hover::after, .hero-slider .swiper-button-next:hover::after {
+.hero-slider .swiper-button-prev:hover::after,
+.hero-slider .swiper-button-next:hover::after {
   color: #fff;
 }
 .hero-slider .swiper-pagination {
@@ -966,7 +978,7 @@ Main Banner CSS
 .hero-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background: #D6D6D6;
+  background: #d6d6d6;
   border: 1px solid #b7b7b7;
   opacity: 1;
 }
@@ -1119,35 +1131,45 @@ Main Banner CSS
   z-index: 1;
   visibility: visible;
 }
-.slider-area ul li .tp-caption.NotGeneric-Title, .slider-area ul li .NotGeneric-Title {
+.slider-area ul li .tp-caption.NotGeneric-Title,
+.slider-area ul li .NotGeneric-Title {
   font-family: var(--font-saira) !important;
 }
-.slider-area ul li .tp-caption.NotGeneric-SubTitle, .slider-area ul li .NotGeneric-SubTitle {
+.slider-area ul li .tp-caption.NotGeneric-SubTitle,
+.slider-area ul li .NotGeneric-SubTitle {
   font-family: var(--font-inter) !important;
   font-size: 15px !important;
   font-weight: 500 !important;
   letter-spacing: 0 !important;
   line-height: 1.8 !important;
 }
-.slider-area ul li .tp-caption.NotGeneric-SubTitle-paragraph, .slider-area ul li .NotGeneric-SubTitle-paragraph {
+.slider-area ul li .tp-caption.NotGeneric-SubTitle-paragraph,
+.slider-area ul li .NotGeneric-SubTitle-paragraph {
   color: #519b00 !important;
   font-size: 18px !important;
 }
-.slider-area ul li .tp-caption.NotGeneric-btn .btn, .slider-area ul li .NotGeneric-btn .btn {
+.slider-area ul li .tp-caption.NotGeneric-btn .btn,
+.slider-area ul li .NotGeneric-btn .btn {
   margin: 0 4px;
   transition: all 0.5s ease !important;
 }
-.slider-area ul li .tp-caption.NotGeneric-btn .btn-primary, .slider-area ul li .NotGeneric-btn .btn-primary {
+.slider-area ul li .tp-caption.NotGeneric-btn .btn-primary,
+.slider-area ul li .NotGeneric-btn .btn-primary {
   background-color: #ffffff;
 }
-.slider-area ul li .tp-caption.NotGeneric-btn .btn-primary:hover, .slider-area ul li .tp-caption.NotGeneric-btn .btn-primary:focus, .slider-area ul li .NotGeneric-btn .btn-primary:hover, .slider-area ul li .NotGeneric-btn .btn-primary:focus {
+.slider-area ul li .tp-caption.NotGeneric-btn .btn-primary:hover, .slider-area ul li .tp-caption.NotGeneric-btn .btn-primary:focus,
+.slider-area ul li .NotGeneric-btn .btn-primary:hover,
+.slider-area ul li .NotGeneric-btn .btn-primary:focus {
   border-color: #ffffff;
 }
-.slider-area ul li .tp-caption.NotGeneric-btn .btn-secondary, .slider-area ul li .NotGeneric-btn .btn-secondary {
+.slider-area ul li .tp-caption.NotGeneric-btn .btn-secondary,
+.slider-area ul li .NotGeneric-btn .btn-secondary {
   border-color: #ffffff;
   color: #ffffff;
 }
-.slider-area ul li .tp-caption.NotGeneric-btn .btn-secondary:hover, .slider-area ul li .tp-caption.NotGeneric-btn .btn-secondary:focus, .slider-area ul li .NotGeneric-btn .btn-secondary:hover, .slider-area ul li .NotGeneric-btn .btn-secondary:focus {
+.slider-area ul li .tp-caption.NotGeneric-btn .btn-secondary:hover, .slider-area ul li .tp-caption.NotGeneric-btn .btn-secondary:focus,
+.slider-area ul li .NotGeneric-btn .btn-secondary:hover,
+.slider-area ul li .NotGeneric-btn .btn-secondary:focus {
   border-color: #519b00;
   background: transparent;
 }
@@ -1356,10 +1378,12 @@ Featured Services CSS
   font-size: 18px;
   padding-left: 3px;
 }
-.featured-services-slides .swiper-button-prev:hover, .featured-services-slides .swiper-button-next:hover {
+.featured-services-slides .swiper-button-prev:hover,
+.featured-services-slides .swiper-button-next:hover {
   background-color: #519b00;
 }
-.featured-services-slides .swiper-button-prev:hover::after, .featured-services-slides .swiper-button-next:hover::after {
+.featured-services-slides .swiper-button-prev:hover::after,
+.featured-services-slides .swiper-button-next:hover::after {
   color: #fff;
 }
 
@@ -1772,10 +1796,12 @@ Case Studies CSS
   font-size: 20px;
   padding-left: 3px;
 }
-.work-slides .swiper-button-prev:hover, .work-slides .swiper-button-next:hover {
+.work-slides .swiper-button-prev:hover,
+.work-slides .swiper-button-next:hover {
   background-color: #519b00;
 }
-.work-slides .swiper-button-prev:hover::after, .work-slides .swiper-button-next:hover::after {
+.work-slides .swiper-button-prev:hover::after,
+.work-slides .swiper-button-next:hover::after {
   color: #fff;
 }
 .work-slides .swiper-pagination {
@@ -1784,7 +1810,7 @@ Case Studies CSS
 .work-slides .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background: #D6D6D6;
+  background: #d6d6d6;
   border: 1px solid #b7b7b7;
   opacity: 1;
 }
@@ -1858,8 +1884,8 @@ Services CSS
   transition: box-shadow 0.3s ease;
 }
 .service-image:hover {
-  box-shadow: 0 0 0 6px white, 0 0 0 15px #8BC981; /* Define as camadas da borda */
-  background-color: #8BC981;
+  box-shadow: 0 0 0 6px white, 0 0 0 15px #8bc981; /* Define as camadas da borda */
+  background-color: #8bc981;
 }
 
 .services-inner {
@@ -1899,7 +1925,8 @@ Services CSS
 .services-slides .swiper-button-prev {
   left: 0;
 }
-.services-slides .swiper-button-next:after, .services-slides .swiper-button-prev:after {
+.services-slides .swiper-button-next:after,
+.services-slides .swiper-button-prev:after {
   color: #519b00;
   font-size: 30px;
 }
@@ -2069,6 +2096,9 @@ Services CSS
   display: inline-block;
   transition: all 0.5s ease;
 }
+.service-card-one:hover h3 {
+  color: #519b00;
+}
 .service-card-one h3 {
   font-size: 24px;
   margin-bottom: 10px;
@@ -2209,14 +2239,17 @@ Portfolio Details CSS
   font-size: 20px;
   margin-bottom: 15px;
 }
-.services-details-desc ul, .services-details-desc ol {
+.services-details-desc ul,
+.services-details-desc ol {
   padding-left: 17px;
 }
-.services-details-desc ul li, .services-details-desc ol li {
+.services-details-desc ul li,
+.services-details-desc ol li {
   line-height: 1.8;
   margin-bottom: 8px;
 }
-.services-details-desc ul li:last-child, .services-details-desc ol li:last-child {
+.services-details-desc ul li:last-child,
+.services-details-desc ol li:last-child {
   margin-bottom: 0;
 }
 
@@ -2282,7 +2315,9 @@ Feedback CSS
   background-color: #263238;
   background-image: none;
 }
-.feedback-area.feedback-style-3 .single-feedback p, .feedback-area.feedback-style-3 .single-feedback h3, .feedback-area.feedback-style-3 .single-feedback span {
+.feedback-area.feedback-style-3 .single-feedback p,
+.feedback-area.feedback-style-3 .single-feedback h3,
+.feedback-area.feedback-style-3 .single-feedback span {
   color: #fff;
 }
 
@@ -2337,7 +2372,7 @@ Feedback CSS
 .single-feedback .rating i {
   font-size: 25px;
   margin: 0 3px;
-  color: #FF9529;
+  color: #ff9529;
 }
 
 .feedback-slides .swiper-pagination {
@@ -2347,7 +2382,7 @@ Feedback CSS
 .feedback-slides .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background: #D6D6D6;
+  background: #d6d6d6;
   border: 1px solid #b7b7b7;
   opacity: 1;
 }
@@ -2442,13 +2477,16 @@ Portfolio CSS
 .single-portfolio .portfolio-content h3 a:hover {
   color: #519b00;
 }
-.single-portfolio .portfolio-content .link-btn, .single-portfolio .portfolio-content .popup-btn {
+.single-portfolio .portfolio-content .link-btn,
+.single-portfolio .portfolio-content .popup-btn {
   color: #ffffff;
   font-size: 20px;
   position: absolute;
   bottom: 15px;
 }
-.single-portfolio .portfolio-content .link-btn:hover, .single-portfolio .portfolio-content .link-btn:focus, .single-portfolio .portfolio-content .popup-btn:hover, .single-portfolio .portfolio-content .popup-btn:focus {
+.single-portfolio .portfolio-content .link-btn:hover, .single-portfolio .portfolio-content .link-btn:focus,
+.single-portfolio .portfolio-content .popup-btn:hover,
+.single-portfolio .portfolio-content .popup-btn:focus {
   color: #519b00;
 }
 .single-portfolio .portfolio-content .link-btn {
@@ -3140,15 +3178,17 @@ CTA CSS
   text-align: right;
 }
 
-.cta-area-two {
-  background-image: url("/images/cta-bg.jpg");
+.team-area {
+  background-image: url("/images/about/team/team.png");
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   text-align: center;
   position: relative;
   background-attachment: fixed;
+  height: 800px;
 }
-.cta-area-two::before {
+.team-area::before {
   background: linear-gradient(-45deg, rgb(44, 234, 251) 0%, rgb(81, 155, 0) 0%);
   position: absolute;
   height: 100%;
@@ -3156,44 +3196,44 @@ CTA CSS
   top: 0;
   left: 0;
   content: "";
-  opacity: 0.95;
+  opacity: 0.15;
 }
-.cta-area-two .cta-content {
+.team-area .cta-content {
   position: relative;
   max-width: 850px;
   margin: auto;
   width: 100%;
 }
-.cta-area-two .cta-content span {
+.team-area .cta-content span {
   color: #ffffff;
   text-transform: uppercase;
   font-size: 20px;
   display: block;
   margin-bottom: 5px;
 }
-.cta-area-two .cta-content h3 {
+.team-area .cta-content h3 {
   color: #ffffff;
   font-size: 70px;
   text-transform: capitalize;
 }
-.cta-area-two .cta-content p {
+.team-area .cta-content p {
   color: #ffffff;
 }
-.cta-area-two .cta-btn-box {
+.team-area .cta-btn-box {
   text-align: center;
   margin-top: 40px;
   position: relative;
 }
-.cta-area-two .cta-btn-box .custom-btn {
+.team-area .cta-btn-box .custom-btn {
   padding: 15px 35px;
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
 }
-.cta-area-two .cta-btn-box .custom-btn:hover {
+.team-area .cta-btn-box .custom-btn:hover {
   background-color: #18181b;
 }
-.cta-area-two.dark-style::before {
+.team-area.dark-style::before {
   background: #000;
   position: absolute;
   height: 100%;
@@ -3203,10 +3243,10 @@ CTA CSS
   content: "";
   opacity: 0.95;
 }
-.cta-area-two.dark-style .cta-btn-box {
+.team-area.dark-style .cta-btn-box {
   margin-top: 30px;
 }
-.cta-area-two.dark-style .default-btn-two:hover {
+.team-area.dark-style .default-btn-two:hover {
   border: 2px solid #c90f48;
   background: #c90f48;
 }
@@ -3245,7 +3285,7 @@ Fun Facts CSS
   margin: auto;
   position: relative;
   margin-bottom: 20px;
-  background: #F6F4FD;
+  background: #f6f4fd;
   border-radius: 100%;
   text-align: center;
   display: inline-block;
@@ -3536,7 +3576,8 @@ Blog CSS
   margin-left: -10px;
   margin-right: -10px;
 }
-.blog-item-box .blog-item .row .col-lg-4, .blog-item-box .blog-item .row .col-lg-8 {
+.blog-item-box .blog-item .row .col-lg-4,
+.blog-item-box .blog-item .row .col-lg-8 {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -3703,7 +3744,7 @@ Blog CSS
 .blog-slides .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background: #D6D6D6;
+  background: #d6d6d6;
   border: 1px solid #b7b7b7;
   opacity: 1;
 }
@@ -3883,7 +3924,8 @@ blockquote cite::before {
   margin-bottom: 25px;
   margin-top: 30px;
 }
-.comments-area ol, .comments-area ul {
+.comments-area ol,
+.comments-area ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -4011,7 +4053,19 @@ blockquote cite::before {
   font-weight: 600;
   color: #18181b;
 }
-.comments-area .comment-respond input[type=date], .comments-area .comment-respond input[type=time], .comments-area .comment-respond input[type=datetime-local], .comments-area .comment-respond input[type=week], .comments-area .comment-respond input[type=month], .comments-area .comment-respond input[type=text], .comments-area .comment-respond input[type=email], .comments-area .comment-respond input[type=url], .comments-area .comment-respond input[type=password], .comments-area .comment-respond input[type=search], .comments-area .comment-respond input[type=tel], .comments-area .comment-respond input[type=number], .comments-area .comment-respond textarea {
+.comments-area .comment-respond input[type=date],
+.comments-area .comment-respond input[type=time],
+.comments-area .comment-respond input[type=datetime-local],
+.comments-area .comment-respond input[type=week],
+.comments-area .comment-respond input[type=month],
+.comments-area .comment-respond input[type=text],
+.comments-area .comment-respond input[type=email],
+.comments-area .comment-respond input[type=url],
+.comments-area .comment-respond input[type=password],
+.comments-area .comment-respond input[type=search],
+.comments-area .comment-respond input[type=tel],
+.comments-area .comment-respond input[type=number],
+.comments-area .comment-respond textarea {
   display: block;
   width: 100%;
   background-color: #ffffff;
@@ -4020,7 +4074,19 @@ blockquote cite::before {
   outline: 0;
   transition: all 0.5s ease;
 }
-.comments-area .comment-respond input[type=date]:focus, .comments-area .comment-respond input[type=time]:focus, .comments-area .comment-respond input[type=datetime-local]:focus, .comments-area .comment-respond input[type=week]:focus, .comments-area .comment-respond input[type=month]:focus, .comments-area .comment-respond input[type=text]:focus, .comments-area .comment-respond input[type=email]:focus, .comments-area .comment-respond input[type=url]:focus, .comments-area .comment-respond input[type=password]:focus, .comments-area .comment-respond input[type=search]:focus, .comments-area .comment-respond input[type=tel]:focus, .comments-area .comment-respond input[type=number]:focus, .comments-area .comment-respond textarea:focus {
+.comments-area .comment-respond input[type=date]:focus,
+.comments-area .comment-respond input[type=time]:focus,
+.comments-area .comment-respond input[type=datetime-local]:focus,
+.comments-area .comment-respond input[type=week]:focus,
+.comments-area .comment-respond input[type=month]:focus,
+.comments-area .comment-respond input[type=text]:focus,
+.comments-area .comment-respond input[type=email]:focus,
+.comments-area .comment-respond input[type=url]:focus,
+.comments-area .comment-respond input[type=password]:focus,
+.comments-area .comment-respond input[type=search]:focus,
+.comments-area .comment-respond input[type=tel]:focus,
+.comments-area .comment-respond input[type=number]:focus,
+.comments-area .comment-respond textarea:focus {
   border-color: #519b00;
 }
 .comments-area .comment-respond .comment-form-author {
@@ -4080,17 +4146,25 @@ blockquote cite::before {
   opacity: 0.5;
 }
 
-.text-container h1, .text-container h2, .text-container h3, .text-container h4, .text-container h5, .text-container h6 {
+.text-container h1,
+.text-container h2,
+.text-container h3,
+.text-container h4,
+.text-container h5,
+.text-container h6 {
   margin-bottom: 15px;
 }
-.text-container ul, .text-container ol {
+.text-container ul,
+.text-container ol {
   padding-left: 17px;
 }
-.text-container ul li, .text-container ol li {
+.text-container ul li,
+.text-container ol li {
   line-height: 1.8;
   margin-bottom: 8px;
 }
-.text-container ul li:last-child, .text-container ol li:last-child {
+.text-container ul li:last-child,
+.text-container ol li:last-child {
   margin-bottom: 0;
 }
 
@@ -4711,7 +4785,12 @@ Portfolio Details CSS
 .portfolio-desc {
   margin-top: 50px;
 }
-.portfolio-desc h1, .portfolio-desc h2, .portfolio-desc h3, .portfolio-desc h4, .portfolio-desc h5, .portfolio-desc h6 {
+.portfolio-desc h1,
+.portfolio-desc h2,
+.portfolio-desc h3,
+.portfolio-desc h4,
+.portfolio-desc h5,
+.portfolio-desc h6 {
   margin-bottom: 15px;
 }
 .portfolio-desc h1 {
@@ -4732,14 +4811,17 @@ Portfolio Details CSS
 .portfolio-desc h6 {
   font-size: 20px;
 }
-.portfolio-desc ul, .portfolio-desc ol {
+.portfolio-desc ul,
+.portfolio-desc ol {
   margin-bottom: 20px;
 }
-.portfolio-desc ul li, .portfolio-desc ol li {
+.portfolio-desc ul li,
+.portfolio-desc ol li {
   line-height: 1.4;
   margin-bottom: 5px;
 }
-.portfolio-desc ul li:last-child, .portfolio-desc ol li:last-child {
+.portfolio-desc ul li:last-child,
+.portfolio-desc ol li:last-child {
   margin-bottom: 0;
 }
 
@@ -5275,7 +5357,7 @@ span.new {
 .quotes-slides .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background: #D6D6D6;
+  background: #d6d6d6;
   border: 1px solid #b7b7b7;
   opacity: 1;
 }
@@ -5284,13 +5366,15 @@ span.new {
   border: 1px solid #ff2c9c;
 }
 
-.curve-shape, .oval-shape {
+.curve-shape,
+.oval-shape {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
 }
-.curve-shape img, .oval-shape img {
+.curve-shape img,
+.oval-shape img {
   width: 100%;
 }
 

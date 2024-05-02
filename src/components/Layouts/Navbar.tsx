@@ -9,7 +9,7 @@ import whiteLogo from '../../../public/images/bimlogobranca.webp';
 import MenuItem from '@/components/Layouts/MenuItem';
 import { menus } from '@/constants/menus';
 
-const NavbarTwo: React.FC = () => {
+const Navbar: React.FC = () => {
     const [menu, setMenu] = useState<boolean>(true);
 
     const toggleNavbar = () => {
@@ -98,4 +98,4 @@ const NavbarTwo: React.FC = () => {
     );
 };
 
-export default NavbarTwo;
+export default Navbar;

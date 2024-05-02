@@ -11,6 +11,8 @@ import 'swiper/css/bundle';
 import '../styles/app-home-page.css';
 // Business Consulting Home Page Style
 import '../styles/business-consulting-home-page.css';
+// About Page Style
+import '../styles/about-page.css';
 
 // Global Style
 import '../styles/style.css';

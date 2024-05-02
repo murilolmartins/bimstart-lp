@@ -1,29 +1,18 @@
+import { valuesData } from '@/constants/values';
 import Image from 'next/image';
-import Link from 'next/link';
 
-interface ServicesProps {
-    servicesData: {
-        image: string;
-        title: string;
-        shortText: string;
-        viewDetails: string;
-        aosDelay: string;
-    }[];
-    title: string;
-}
-
-const Services = ({ servicesData , title}: ServicesProps) => {
+const Values = () => {
     return (
         <>
-            <div className="pt-100 pb-70 bc-bg-f3f4f7">
+            <div className="pt-100 pb-70 bg-fcfbfb">
                 <div className="container">
                     <div className="section-title">
-                        <h2>{title}</h2>
+                        <h2>Nossos Valores</h2>
                     </div>
 
                     <div className="row justify-content-center">
-                        {servicesData &&
-                            servicesData.map((value, i) => (
+                        {valuesData &&
+                            valuesData.map((value, i) => (
                                 <div
                                     className="col-lg-4 col-sm-6"
                                     key={i}
@@ -37,12 +26,10 @@ const Services = ({ servicesData , title}: ServicesProps) => {
                                             alt="image"
                                             width={200}
                                             height={200}
-                                            className="service-image"
                                         />
                                         <h3 className="mt-5">
                                                 {value.title}
                                         </h3>
-                                        <p>{value.shortText}</p>
                                     </div>
                                 </div>
                             ))}
@@ -53,4 +40,4 @@ const Services = ({ servicesData , title}: ServicesProps) => {
     );
 };
 
-export default Services;
+export default Values;

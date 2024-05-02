@@ -46,7 +46,11 @@ This files table contents are outlined below >>>>>
 // Global Variable
 
 $main-color: #519b00;
-$gradient-color: linear-gradient(-45deg, rgba(44,234,251,1) 0%, rgba(81,155,0,1) 0%);
+$gradient-color: linear-gradient(
+    -45deg,
+    rgba(44, 234, 251, 1) 0%,
+    rgba(81, 155, 0, 1) 0%
+);
 $font-size: 15px;
 $black-color: #18181b;
 $paragraph-color: #646464;
@@ -62,15 +66,24 @@ body {
     }
     color: $paragraph-color;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-saira);
     color: $black-color;
     font-weight: bold;
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-weight: bold;
 }
-h4, h5, h6 {
+h4,
+h5,
+h6 {
     font-weight: 600;
 }
 p {
@@ -167,7 +180,8 @@ a {
     text-decoration: none;
     transition: $transition;
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         outline: 0 !important;
         color: $main-color;
         text-decoration: none;
@@ -190,7 +204,8 @@ a {
         weight: 600;
         size: 15px;
     }
-    &.disabled, &:disabled {
+    &.disabled,
+    &:disabled {
         opacity: 1;
     }
 }
@@ -213,18 +228,22 @@ a {
         z-index: -1;
         transition: $transition;
     }
-    &:not(:disabled):not(.disabled).active:focus, &:not(:disabled):not(.disabled):active:focus, .show>&.dropdown-toggle:focus {
+    &:not(:disabled):not(.disabled).active:focus,
+    &:not(:disabled):not(.disabled):active:focus,
+    .show > &.dropdown-toggle:focus {
         color: $main-color;
         box-shadow: unset;
         background-color: transparent;
         border-color: $main-color;
     }
-    &.disabled, &:disabled {
+    &.disabled,
+    &:disabled {
         color: $white-color;
         background-color: $white-color;
         border: 1px solid $main-color;
     }
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         color: $main-color;
         box-shadow: unset;
         background-color: transparent;
@@ -254,18 +273,22 @@ a {
         z-index: -1;
         transition: $transition;
     }
-    &:not(:disabled):not(.disabled).active:focus, &:not(:disabled):not(.disabled):active:focus, .show>&.dropdown-toggle:focus {
+    &:not(:disabled):not(.disabled).active:focus,
+    &:not(:disabled):not(.disabled):active:focus,
+    .show > &.dropdown-toggle:focus {
         color: $white-color;
         box-shadow: unset;
         background-color: $white-color;
         border-color: transparent;
     }
-    &.disabled, &:disabled {
+    &.disabled,
+    &:disabled {
         color: $main-color;
         background-color: transparent;
         border: 1px solid $main-color;
     }
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         color: $white-color;
         box-shadow: unset;
         background-color: $white-color;
@@ -288,13 +311,14 @@ a {
     font-weight: 600;
     font-size: 15px;
     transition: $transition;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         border: 2px solid #000;
         background: #000;
         color: #fff;
     }
 }
- 
+
 /* section-title */
 .section-title {
     text-align: center;
@@ -319,7 +343,8 @@ a {
         font-weight: 600;
     }
     &.white-color {
-        .sub-title, h2 {
+        .sub-title,
+        h2 {
             color: $white-color;
         }
     }
@@ -331,7 +356,7 @@ a {
         font: {
             weight: 600;
             size: 14px;
-        };
+        }
     }
 }
 /* form control */
@@ -389,7 +414,7 @@ Navbar CSS
         }
         .navbar-nav {
             margin-left: auto;
- 
+
             .nav-item {
                 position: relative;
                 padding: {
@@ -422,9 +447,11 @@ Navbar CSS
                         content: '';
                         position: absolute;
                     }
-                    &:hover, &:focus, &.active {
+                    &:hover,
+                    &:focus,
+                    &.active {
                         color: $black-color;
-    
+
                         &::before {
                             width: 60%;
                         }
@@ -470,7 +497,9 @@ Navbar CSS
                             &::before {
                                 display: none;
                             }
-                            &:hover, &:focus, &.active {
+                            &:hover,
+                            &:focus,
+                            &.active {
                                 color: $main-color;
                             }
                         }
@@ -485,7 +514,9 @@ Navbar CSS
                                 a {
                                     color: $black-color;
 
-                                    &:hover, &:focus, &.active {
+                                    &:hover,
+                                    &:focus,
+                                    &.active {
                                         color: $main-color;
                                     }
                                 }
@@ -535,12 +566,12 @@ Navbar CSS
             padding: 0;
             margin: 0 0 0 10px;
             list-style-type: none;
-    
+
             .btn {
                 border-radius: 50px;
                 padding: 11px 30px;
                 font-size: 14px;
-    
+
                 &::before {
                     border-radius: 50px;
                 }
@@ -559,12 +590,13 @@ Navbar CSS
             }
             .others-options {
                 margin: 0 0 0 0;
-        
+
                 .btn {
                     color: $white-color;
                     border-color: $white-color;
-        
-                    &:hover, &:focus {
+
+                    &:hover,
+                    &:focus {
                         border-color: $main-color;
                         background: transparent;
                     }
@@ -576,8 +608,9 @@ Navbar CSS
                 .btn {
                     color: $main-color;
                     border-color: $main-color;
-        
-                    &:hover, &:focus {
+
+                    &:hover,
+                    &:focus {
                         border-color: $main-color;
                         color: $white-color;
                     }
@@ -696,7 +729,9 @@ Navbar CSS
             .nav-item {
                 a {
                     color: #fff;
-                    &:hover, &:focus, &.active {
+                    &:hover,
+                    &:focus,
+                    &.active {
                         color: #fff;
                     }
                 }
@@ -710,7 +745,7 @@ Navbar CSS
     }
 }
 
-// Navbar toggler 
+// Navbar toggler
 .navbar-toggler {
     border: none;
     background: #eee !important;
@@ -746,7 +781,7 @@ Navbar CSS
     }
     &.collapsed {
         .top-bar {
-            transform: rotate(0);      
+            transform: rotate(0);
             left: 0;
         }
         .middle-bar {
@@ -759,7 +794,6 @@ Navbar CSS
     }
 }
 
-  
 /*================================================
 Main Banner CSS
 =================================================*/
@@ -785,7 +819,7 @@ Main Banner CSS
             height: 100%;
             background: $gradient-color;
             z-index: -1;
-            opacity: .70;
+            opacity: 0.7;
         }
         .main-banner-content {
             text-align: center;
@@ -800,12 +834,13 @@ Main Banner CSS
             }
             p {
                 color: $white-color;
-                opacity: .90;
+                opacity: 0.9;
                 max-width: 557px;
                 margin: 0 auto 30px;
             }
             .btn-primary {
-                &:hover, &:focus {
+                &:hover,
+                &:focus {
                     color: $white-color;
                     border-color: $white-color;
                 }
@@ -814,7 +849,8 @@ Main Banner CSS
                 border-color: $white-color;
                 color: $white-color;
 
-                &:hover, &:focus {
+                &:hover,
+                &:focus {
                     border-color: $main-color;
                     background: transparent;
                 }
@@ -847,7 +883,7 @@ Main Banner CSS
             right: 85px;
         }
     }
-    .main-banner { 
+    .main-banner {
         .container-fluid {
             padding: {
                 right: 55px;
@@ -883,9 +919,9 @@ Main Banner CSS
 
     &.overly {
         &::before {
-            content: "";
+            content: '';
             background-color: $black-color;
-            opacity: .75;
+            opacity: 0.75;
             position: absolute;
             left: 0;
             top: 0;
@@ -895,9 +931,9 @@ Main Banner CSS
     }
     &.overly-6 {
         &::before {
-            content: "";
+            content: '';
             background-color: $black-color;
-            opacity: .60;
+            opacity: 0.6;
             position: absolute;
             left: 0;
             top: 0;
@@ -938,7 +974,8 @@ Main Banner CSS
         .btn-primary {
             font-size: 16px;
             padding: 15px 40px;
-            &:hover, &:focus {
+            &:hover,
+            &:focus {
                 color: $white-color;
                 border-color: $white-color;
             }
@@ -949,7 +986,8 @@ Main Banner CSS
             font-size: 16px;
             padding: 15px 30px;
 
-            &:hover, &:focus {
+            &:hover,
+            &:focus {
                 border-color: $main-color;
                 background: transparent;
             }
@@ -985,14 +1023,16 @@ Main Banner CSS
 
     img {
         display: block !important;
-        -webkit-animation: border-transform 10s linear infinite alternate forwards;
+        -webkit-animation: border-transform 10s linear infinite alternate
+            forwards;
         animation: border-transform 10s linear infinite alternate forwards;
         margin: auto;
     }
 }
- 
+
 @-webkit-keyframes border-transform {
-    0%, 100% {
+    0%,
+    100% {
         border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
     }
     14% {
@@ -1014,9 +1054,10 @@ Main Banner CSS
         border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
     }
 }
-  
+
 @keyframes border-transform {
-    0%, 100% {
+    0%,
+    100% {
         border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
     }
     14% {
@@ -1083,7 +1124,8 @@ Main Banner CSS
             padding-left: 3px;
         }
     }
-    .swiper-button-prev:hover, .swiper-button-next:hover {
+    .swiper-button-prev:hover,
+    .swiper-button-next:hover {
         background-color: $main-color;
         &::after {
             color: #fff;
@@ -1094,7 +1136,7 @@ Main Banner CSS
         .swiper-pagination-bullet {
             width: 12px;
             height: 12px;
-            background: #D6D6D6;
+            background: #d6d6d6;
             border: 1px solid #b7b7b7;
             opacity: 1;
             &.swiper-pagination-bullet-active {
@@ -1250,16 +1292,18 @@ Main Banner CSS
                 width: 100%;
                 height: 100%;
                 background: $black-color;
-                opacity: .55;
+                opacity: 0.55;
                 z-index: 1;
                 visibility: visible;
             }
-            .tp-caption.NotGeneric-Title, .NotGeneric-Title {
+            .tp-caption.NotGeneric-Title,
+            .NotGeneric-Title {
                 font: {
                     family: var(--font-saira) !important;
                 }
             }
-            .tp-caption.NotGeneric-SubTitle, .NotGeneric-SubTitle {
+            .tp-caption.NotGeneric-SubTitle,
+            .NotGeneric-SubTitle {
                 font: {
                     family: var(--font-inter) !important;
                     size: 15px !important;
@@ -1268,11 +1312,13 @@ Main Banner CSS
                 letter-spacing: 0 !important;
                 line-height: 1.8 !important;
             }
-            .tp-caption.NotGeneric-SubTitle-paragraph, .NotGeneric-SubTitle-paragraph {
+            .tp-caption.NotGeneric-SubTitle-paragraph,
+            .NotGeneric-SubTitle-paragraph {
                 color: $main-color !important;
                 font-size: 18px !important;
             }
-            .tp-caption.NotGeneric-btn, .NotGeneric-btn {
+            .tp-caption.NotGeneric-btn,
+            .NotGeneric-btn {
                 .btn {
                     margin: 0 4px;
                     transition: $transition !important;
@@ -1280,7 +1326,8 @@ Main Banner CSS
                 .btn-primary {
                     background-color: $white-color;
 
-                    &:hover, &:focus {
+                    &:hover,
+                    &:focus {
                         border-color: $white-color;
                     }
                 }
@@ -1288,7 +1335,8 @@ Main Banner CSS
                     border-color: $white-color;
                     color: $white-color;
 
-                    &:hover, &:focus {
+                    &:hover,
+                    &:focus {
                         border-color: $main-color;
                         background: transparent;
                     }
@@ -1317,16 +1365,21 @@ Main Banner CSS
             cursor: pointer;
             border: none;
 
-            &::after, &::before {
+            &::after,
+            &::before {
                 border: 1px solid $main-color;
             }
 
-            &:hover, &:focus {
+            &:hover,
+            &:focus {
                 background-color: $white-color;
                 color: $main-color;
             }
-    
-            &:hover::after, &:hover::before, &:focus::after, &:focus::before {
+
+            &:hover::after,
+            &:hover::before,
+            &:focus::after,
+            &:focus::before {
                 border-color: $white-color;
             }
         }
@@ -1339,7 +1392,7 @@ Main Banner CSS
         overflow: hidden;
         left: 0;
         top: 0;
-    
+
         video {
             position: absolute;
             left: 0;
@@ -1364,7 +1417,7 @@ Main Banner CSS
                 font-size: 70px;
             }
         }
-   
+
         .video-box {
             .video-btn {
                 position: relative;
@@ -1448,12 +1501,14 @@ Featured Services CSS
         margin: 0 auto;
         top: 0;
         color: #010101;
-        opacity: .04;
+        opacity: 0.04;
         z-index: -1;
         text-transform: uppercase;
         transition: $transition;
     }
-    &:hover, &:focus, &.active {
+    &:hover,
+    &:focus,
+    &.active {
         &::before {
             opacity: 1;
             visibility: visible;
@@ -1477,7 +1532,7 @@ Featured Services CSS
             color: $white-color;
         }
         .back-text {
-            opacity: .1;
+            opacity: 0.1;
         }
     }
 }
@@ -1523,7 +1578,8 @@ Featured Services CSS
             padding-left: 3px;
         }
     }
-    .swiper-button-prev:hover, .swiper-button-next:hover {
+    .swiper-button-prev:hover,
+    .swiper-button-next:hover {
         background-color: $main-color;
         &::after {
             color: #fff;
@@ -1601,7 +1657,7 @@ About CSS
 .video-box {
     text-align: center;
     .video-btn {
-        box-shadow: 0 20px 30px rgba(0,0,0,.2);
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
         position: absolute;
         left: 0;
         right: 0;
@@ -1619,7 +1675,8 @@ About CSS
         margin-right: auto;
         cursor: pointer;
 
-        &::after, &::before {
+        &::after,
+        &::before {
             content: '';
             display: block;
             position: absolute;
@@ -1647,24 +1704,28 @@ About CSS
 
         &::before {
             -webkit-animation: ripple 2s linear infinite;
-                    animation: ripple 2s linear infinite;
+            animation: ripple 2s linear infinite;
         }
         &::after {
             -webkit-animation: ripple 2s linear 1s infinite;
-                    animation: ripple 2s linear 1s infinite;
+            animation: ripple 2s linear 1s infinite;
         }
 
-        &:hover, &:focus {
+        &:hover,
+        &:focus {
             background-color: $main-color;
             color: #ffffff;
         }
 
-        &:hover::after, &:hover::before, &:focus::after, &:focus::before {
+        &:hover::after,
+        &:hover::before,
+        &:focus::after,
+        &:focus::before {
             border-color: $main-color;
         }
     }
 }
-  
+
 @-webkit-keyframes ripple {
     0% {
         -webkit-transform: scale(1);
@@ -1693,7 +1754,7 @@ About CSS
         opacity: 1;
     }
     100% {
-    -webkit-transform: scale(2);
+        -webkit-transform: scale(2);
         transform: scale(2);
         opacity: 0;
     }
@@ -1751,7 +1812,8 @@ Case Studies CSS
             a {
                 color: $white-color;
 
-                &:hover, &:focus {
+                &:hover,
+                &:focus {
                     color: $white-color;
                 }
             }
@@ -1796,10 +1858,13 @@ Case Studies CSS
         &::before {
             background: $white-color;
         }
-        &:not(:disabled):not(.disabled).active:focus, &:not(:disabled):not(.disabled):active:focus, .show>&.dropdown-toggle:focus {
+        &:not(:disabled):not(.disabled).active:focus,
+        &:not(:disabled):not(.disabled):active:focus,
+        .show > &.dropdown-toggle:focus {
             color: $white-color;
         }
-        &:hover, &:focus {
+        &:hover,
+        &:focus {
             color: $white-color;
         }
     }
@@ -1817,12 +1882,17 @@ Case Studies CSS
     }
 }
 .mt-40 {
-    &:nth-child(1), &:nth-child(3) {
+    &:nth-child(1),
+    &:nth-child(3) {
         .single-case-studies {
             margin-top: 40px;
         }
     }
-    &:nth-child(5), &:nth-child(8), &:nth-child(11), &:nth-child(14), &:nth-child(17) {
+    &:nth-child(5),
+    &:nth-child(8),
+    &:nth-child(11),
+    &:nth-child(14),
+    &:nth-child(17) {
         .single-case-studies {
             margin-top: -40px;
         }
@@ -1860,7 +1930,9 @@ Case Studies CSS
                     height: 2px;
                     background: $gradient-color;
                 }
-                &:hover, &:focus, &:focus-visible {
+                &:hover,
+                &:focus,
+                &:focus-visible {
                     color: $main-color;
                     outline: 0;
 
@@ -1868,7 +1940,7 @@ Case Studies CSS
                         width: 100%;
                     }
                 }
-                
+
                 &.react-tabs__tab--selected {
                     color: $main-color;
 
@@ -1894,11 +1966,11 @@ Case Studies CSS
 
     &::before {
         content: '';
-        background-color: rgba(0, 0, 0, 0.50);
+        background-color: rgba(0, 0, 0, 0.5);
         width: 100%;
         height: 100%;
         left: 0;
-        top:0;
+        top: 0;
         position: absolute;
         border-radius: 8px;
         transition: $transition;
@@ -1906,7 +1978,7 @@ Case Studies CSS
     }
 
     &:hover::before {
-        background-color: rgba(0, 0, 0, 0.80);
+        background-color: rgba(0, 0, 0, 0.8);
     }
 
     img {
@@ -1923,7 +1995,7 @@ Case Studies CSS
         padding: 30px;
         transition: $transition;
         z-index: 5;
-        
+
         span {
             display: block;
             margin-bottom: 10px;
@@ -1991,7 +2063,8 @@ Case Studies CSS
             padding-left: 3px;
         }
     }
-    .swiper-button-prev:hover, .swiper-button-next:hover {
+    .swiper-button-prev:hover,
+    .swiper-button-next:hover {
         background-color: $main-color;
         &::after {
             color: #fff;
@@ -2003,7 +2076,7 @@ Case Studies CSS
         .swiper-pagination-bullet {
             width: 12px;
             height: 12px;
-            background: #D6D6D6;
+            background: #d6d6d6;
             border: 1px solid #b7b7b7;
             opacity: 1;
             &.swiper-pagination-bullet-active {
@@ -2087,14 +2160,14 @@ Services CSS
 }
 
 .service-image {
-    border-radius: 50%; 
-    width: 200px; 
-    height: 200px; 
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
     transition: box-shadow 0.3s ease;
 
     &:hover {
-        box-shadow: 0 0 0 6px white, 0 0 0 15px #8BC981; /* Define as camadas da borda */
-        background-color: #8BC981;
+        box-shadow: 0 0 0 6px white, 0 0 0 15px #8bc981; /* Define as camadas da borda */
+        background-color: #8bc981;
     }
 }
 
@@ -2127,7 +2200,7 @@ Services CSS
         }
         p {
             color: $white-color;
-            opacity: .95;
+            opacity: 0.95;
             margin-bottom: 25px;
         }
     }
@@ -2139,7 +2212,8 @@ Services CSS
     .swiper-button-prev {
         left: 0;
     }
-    .swiper-button-next, .swiper-button-prev {
+    .swiper-button-next,
+    .swiper-button-prev {
         &:after {
             color: $main-color;
             font-size: 30px;
@@ -2169,7 +2243,7 @@ Services CSS
         top: 0;
         position: absolute;
         background: #2b2929;
-        opacity: .20;
+        opacity: 0.2;
         z-index: -1;
         content: '';
     }
@@ -2189,14 +2263,14 @@ Services CSS
         left: 0;
         top: 0;
         background: $black-color;
-        opacity: .70;
+        opacity: 0.7;
         right: 0;
         bottom: 0;
         z-index: 1;
     }
 
     &:hover::before {
-        opacity: .90;
+        opacity: 0.9;
     }
     .content {
         position: absolute;
@@ -2205,7 +2279,7 @@ Services CSS
         text-align: center;
         padding: 20px 20px 35px;
         z-index: 2;
-        transition: .8s;
+        transition: 0.8s;
 
         .icon {
             width: 65px;
@@ -2249,7 +2323,7 @@ Services CSS
         }
         p {
             color: $white-color;
-            opacity: .95;
+            opacity: 0.95;
             margin-bottom: 15px;
             visibility: hidden;
             opacity: 0;
@@ -2260,12 +2334,14 @@ Services CSS
             visibility: hidden;
             opacity: 0;
 
-            &:hover, &:focus {
+            &:hover,
+            &:focus {
                 color: $main-color;
             }
         }
     }
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         .content {
             bottom: 0;
 
@@ -2321,6 +2397,12 @@ Services CSS
         display: inline-block;
         transition: $transition;
     }
+    &:hover {
+        h3 {
+            color: $main-color;
+        }
+    }
+
     h3 {
         font-size: 24px;
         margin-bottom: 10px;
@@ -2389,7 +2471,7 @@ Services CSS
     &.border.text-center {
         border-radius: 10px;
     }
-} 
+}
 
 /* Service style two */
 .service-style-two {
@@ -2454,7 +2536,6 @@ Portfolio Details CSS
 =================================================*/
 .services-details-image {
     position: relative;
-  
 }
 .services-details-desc {
     margin-top: 50px;
@@ -2484,7 +2565,8 @@ Portfolio Details CSS
         margin-bottom: 15px;
     }
 
-    ul, ol {
+    ul,
+    ol {
         padding-left: 17px;
 
         li {
@@ -2541,9 +2623,10 @@ Partner CSS
     img {
         transition: $transition;
     }
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         img {
-            opacity: .50;
+            opacity: 0.5;
         }
     }
 
@@ -2570,7 +2653,9 @@ Feedback CSS
         background-image: none;
 
         .single-feedback {
-            p, h3, span {
+            p,
+            h3,
+            span {
                 color: #fff;
             }
         }
@@ -2634,7 +2719,7 @@ Feedback CSS
         i {
             font-size: 25px;
             margin: 0 3px;
-            color: #FF9529;
+            color: #ff9529;
         }
     }
 }
@@ -2645,7 +2730,7 @@ Feedback CSS
         .swiper-pagination-bullet {
             width: 12px;
             height: 12px;
-            background: #D6D6D6;
+            background: #d6d6d6;
             border: 1px solid #b7b7b7;
             opacity: 1;
             &.swiper-pagination-bullet-active {
@@ -2747,13 +2832,15 @@ Portfolio CSS
                 }
             }
         }
-        .link-btn, .popup-btn {
+        .link-btn,
+        .popup-btn {
             color: $white-color;
             font-size: 20px;
             position: absolute;
             bottom: 15px;
 
-            &:hover, &:focus {
+            &:hover,
+            &:focus {
                 color: $main-color;
             }
         }
@@ -2764,9 +2851,10 @@ Portfolio CSS
             right: 0;
         }
     }
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         &::before {
-            opacity: .71;
+            opacity: 0.71;
             visibility: visible;
         }
         .portfolio-content {
@@ -2893,7 +2981,8 @@ Team CSS
                             z-index: -1;
                             transition: $transition;
                         }
-                        &:hover, &:focus {
+                        &:hover,
+                        &:focus {
                             border-color: transparent;
 
                             &::before {
@@ -2919,14 +3008,15 @@ Team CSS
         }
         span {
             color: $white-color;
-            opacity: .90;
+            opacity: 0.9;
             font-size: 14px;
         }
     }
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         .team-img {
             &::before {
-                opacity: .77;
+                opacity: 0.77;
                 visibility: visible;
             }
             .overlay {
@@ -2975,7 +3065,7 @@ Team CSS
 
                     &:hover {
                         background-color: $main-color;
-                        color: $white-color
+                        color: $white-color;
                     }
                 }
             }
@@ -2991,7 +3081,7 @@ Team CSS
             height: 0%;
             top: 0;
             left: 0;
-            opacity: .95;
+            opacity: 0.95;
             transform: scale(0);
             transition: $transition;
         }
@@ -3017,14 +3107,14 @@ Team CSS
 
                     &:hover {
                         background-color: $main-color;
-                        color: $white-color
+                        color: $white-color;
                     }
                 }
             }
         }
     }
 
-    &:hover {   
+    &:hover {
         .team-img {
             .social-links {
                 height: 100%;
@@ -3061,7 +3151,6 @@ Team CSS
     }
 }
 
-
 /*==========================================
 Pricing CSS
 ===========================================*/
@@ -3070,11 +3159,11 @@ Pricing CSS
     z-index: 1;
 }
 .pricing-table {
-	text-align: center;
-	background: $white-color;
-	box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.06);
-	border-radius: 5px;
-	padding-bottom: 35px;
+    text-align: center;
+    background: $white-color;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding-bottom: 35px;
     transition: $transition;
 
     .pricing-header {
@@ -3141,7 +3230,7 @@ Pricing CSS
 
             li {
                 font-size: 16px;
-                margin-bottom: 12px; 
+                margin-bottom: 12px;
 
                 &:last-child {
                     margin-bottom: 0;
@@ -3177,13 +3266,13 @@ Pricing CSS
             }
         }
         .btn-primary {
-            &::after, &::before {
+            &::after,
+            &::before {
                 background: $main-color;
             }
         }
     }
 }
-
 
 /*================================================
 Pricing Area CSS
@@ -3228,7 +3317,7 @@ Pricing Area CSS
             font-weight: normal;
         }
     }
-    
+
     .pricing-features {
         margin: 0;
         padding: 30px 40px;
@@ -3277,7 +3366,7 @@ Pricing Area CSS
             text-align: center;
             li {
                 display: inline-block;
-                background-color: #ffffff; 
+                background-color: #ffffff;
                 color: #8d8fb4;
                 padding: 10px 30px 10px 53px;
                 position: relative;
@@ -3296,7 +3385,9 @@ Pricing Area CSS
                     transform: translateY(-48%);
                     left: 30px;
                 }
-                &.react-tabs__tab--selected, &:focus, &:focus-visible  {
+                &.react-tabs__tab--selected,
+                &:focus,
+                &:focus-visible {
                     color: #ffffff;
                     background-color: $main-color;
                     outline: 0;
@@ -3304,28 +3395,16 @@ Pricing Area CSS
                         color: $white-color;
                     }
                 }
-                &:nth-child(1)  {
+                &:nth-child(1) {
                     border-radius: 30px 0 0 30px;
                 }
-                &:nth-child(2)  {
+                &:nth-child(2) {
                     border-radius: 0 30px 30px 0;
                 }
             }
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*================================================
 Our Work Process CSS
@@ -3373,7 +3452,7 @@ Our Work Process CSS
             .icon {
                 background: transparent;
                 color: #07ee7f;
-        
+
                 &::before {
                     background: #07ee7f;
                 }
@@ -3388,7 +3467,7 @@ Our Work Process CSS
             .icon {
                 background: transparent;
                 color: #ff650b;
-        
+
                 &::before {
                     background: #ff650b;
                 }
@@ -3403,7 +3482,7 @@ Our Work Process CSS
             .icon {
                 background: transparent;
                 color: #9333ff;
-        
+
                 &::before {
                     background: #9333ff;
                 }
@@ -3417,7 +3496,7 @@ Our Work Process CSS
             .icon {
                 background: transparent;
                 color: #fcaf1c;
-        
+
                 &::before {
                     background: #fcaf1c;
                 }
@@ -3431,7 +3510,7 @@ Our Work Process CSS
             .icon {
                 background: transparent;
                 color: #fc23d1;
-        
+
                 &::before {
                     background: #fc23d1;
                 }
@@ -3462,7 +3541,7 @@ Our Work Process CSS
             z-index: -1;
             background: #ff3389;
             border-radius: 50%;
-            opacity: .18;
+            opacity: 0.18;
         }
     }
     h3 {
@@ -3523,7 +3602,7 @@ CTA CSS
             }
             p {
                 color: $white-color;
-                opacity: .90;
+                opacity: 0.9;
             }
         }
         .cta-btn-box {
@@ -3535,7 +3614,8 @@ CTA CSS
                 &::before {
                     background: $white-color;
                 }
-                &:hover, &:focus {
+                &:hover,
+                &:focus {
                     color: $white-color;
                     border-color: $white-color;
                 }
@@ -3560,13 +3640,15 @@ CTA CSS
     text-align: right;
 }
 
-.cta-area-two {
-    background-image: url('/images/cta-bg.jpg');
+.team-area {
+    background-image: url('/images/about/team/team.png');
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     text-align: center;
     position: relative;
     background-attachment: fixed;
+    height: 800px;
 
     &::before {
         background: $gradient-color;
@@ -3576,7 +3658,7 @@ CTA CSS
         top: 0;
         left: 0;
         content: '';
-        opacity: .95;
+        opacity: 0.15;
     }
 
     .cta-content {
@@ -3626,7 +3708,7 @@ CTA CSS
             top: 0;
             left: 0;
             content: '';
-            opacity: .95;
+            opacity: 0.95;
         }
         .cta-btn-box {
             margin-top: 30px;
@@ -3639,7 +3721,7 @@ CTA CSS
         }
     }
 }
- 
+
 /*================================================
 Fun Facts CSS
 =================================================*/
@@ -3674,7 +3756,7 @@ Fun Facts CSS
         margin: auto;
         position: relative;
         margin-bottom: 20px;
-        background: #F6F4FD;
+        background: #f6f4fd;
         border-radius: 100%;
         text-align: center;
         display: inline-block;
@@ -3758,7 +3840,7 @@ Subscribe CSS
     }
 }
 .newsletter {
-	max-width: 750px;
+    max-width: 750px;
     border-radius: 5px;
     margin: {
         left: auto;
@@ -3820,7 +3902,7 @@ Subscribe CSS
         left: 0;
         top: 0;
         background: $gradient-color;
-        opacity: .90;
+        opacity: 0.9;
     }
 
     .newsletter-content {
@@ -3884,8 +3966,9 @@ Blog CSS
             transition: $transition;
             width: 100%;
         }
-        &::before, &::after {
-            content: "";
+        &::before,
+        &::after {
+            content: '';
             background: $white-color;
             height: 0;
             right: 0;
@@ -3899,7 +3982,7 @@ Blog CSS
             bottom: 0;
             right: auto;
             top: auto;
-            opacity: .7;
+            opacity: 0.7;
             left: 0;
         }
     }
@@ -3923,7 +4006,8 @@ Blog CSS
                     display: inline-block;
                     color: $main-color;
 
-                    &:hover, &:focus {
+                    &:hover,
+                    &:focus {
                         color: $main-color;
                     }
                 }
@@ -3969,18 +4053,21 @@ Blog CSS
             a {
                 color: $black-color;
 
-                &:hover, &:focus {
+                &:hover,
+                &:focus {
                     color: $main-color;
                 }
             }
         }
     }
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         .post-image {
             img {
                 transform: scale(1.3);
             }
-            &::after, &::before {
+            &::after,
+            &::before {
                 height: 100%;
                 opacity: 0;
                 width: 100%;
@@ -3992,13 +4079,14 @@ Blog CSS
     .blog-item {
         margin-bottom: 21px;
         background-color: #f5f6f5;
-        
+
         .row {
             margin: {
                 left: -10px;
                 right: -10px;
             }
-            .col-lg-4, .col-lg-8 {
+            .col-lg-4,
+            .col-lg-8 {
                 padding: {
                     left: 10px;
                     right: 10px;
@@ -4010,7 +4098,7 @@ Blog CSS
                 padding: 0;
                 margin: 0;
                 list-style-type: none;
-    
+
                 li {
                     display: inline-block;
                     margin-right: 18px;
@@ -4021,8 +4109,9 @@ Blog CSS
                     a {
                         display: inline-block;
                         color: $main-color;
-    
-                        &:hover, &:focus {
+
+                        &:hover,
+                        &:focus {
                             color: $main-color;
                         }
                     }
@@ -4045,7 +4134,7 @@ Blog CSS
                     }
                     &:last-child {
                         margin-right: 0;
-    
+
                         &::before {
                             display: none;
                         }
@@ -4064,8 +4153,9 @@ Blog CSS
                 }
                 a {
                     color: $black-color;
-    
-                    &:hover, &:focus {
+
+                    &:hover,
+                    &:focus {
                         color: $main-color;
                     }
                 }
@@ -4074,12 +4164,13 @@ Blog CSS
         .post-image {
             overflow: hidden;
             position: relative;
-    
+
             img {
                 transition: $transition;
             }
-            &::before, &::after {
-                content: "";
+            &::before,
+            &::after {
+                content: '';
                 background: $white-color;
                 height: 0;
                 right: 0;
@@ -4093,16 +4184,18 @@ Blog CSS
                 bottom: 0;
                 right: auto;
                 top: auto;
-                opacity: .7;
+                opacity: 0.7;
                 left: 0;
             }
         }
-        &:hover, &:focus {
+        &:hover,
+        &:focus {
             .post-image {
                 img {
                     transform: scale(1.3);
                 }
-                &::after, &::before {
+                &::after,
+                &::before {
                     height: 100%;
                     opacity: 0;
                     width: 100%;
@@ -4169,7 +4262,8 @@ Blog CSS
             a {
                 color: $black-color;
 
-                &:hover, &:focus {
+                &:hover,
+                &:focus {
                     color: $main-color;
                 }
             }
@@ -4178,7 +4272,8 @@ Blog CSS
             margin-bottom: 15px;
         }
     }
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         .blog-image {
             a {
                 img {
@@ -4187,7 +4282,7 @@ Blog CSS
             }
             .post-tag {
                 top: 50px;
-    
+
                 a {
                     background: $main-color;
                     color: $white-color;
@@ -4199,11 +4294,11 @@ Blog CSS
 .blog-slides {
     .swiper-pagination {
         position: initial;
-  
+
         .swiper-pagination-bullet {
             width: 12px;
             height: 12px;
-            background: #D6D6D6;
+            background: #d6d6d6;
             border: 1px solid #b7b7b7;
             opacity: 1;
             &.swiper-pagination-bullet-active {
@@ -4293,7 +4388,8 @@ Blog Details CSS
                         visibility: hidden;
                         transition: $transition;
                     }
-                    &:hover, &:focus {
+                    &:hover,
+                    &:focus {
                         color: $white-color;
 
                         &::before {
@@ -4315,9 +4411,9 @@ blockquote {
     margin: 20px 0;
 
     &::before {
-        font-family: "Font Awesome 5 Free"; 
-        content: "\f10d";
-        position: absolute; 
+        font-family: 'Font Awesome 5 Free';
+        content: '\f10d';
+        position: absolute;
         left: 30px;
         top: 35px;
         color: $main-color;
@@ -4387,7 +4483,8 @@ blockquote {
                 visibility: hidden;
                 transition: $transition;
             }
-            &:hover, &:focus {
+            &:hover,
+            &:focus {
                 border-color: $main-color;
                 color: $white-color;
 
@@ -4410,7 +4507,8 @@ blockquote {
             top: 30px;
         }
     }
-    ol, ul {
+    ol,
+    ul {
         padding: 0;
         margin: 0;
         list-style-type: none;
@@ -4556,7 +4654,19 @@ blockquote {
             font-weight: 600;
             color: $black-color;
         }
-        input[type="date"], input[type="time"], input[type="datetime-local"], input[type="week"], input[type="month"], input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea {
+        input[type='date'],
+        input[type='time'],
+        input[type='datetime-local'],
+        input[type='week'],
+        input[type='month'],
+        input[type='text'],
+        input[type='email'],
+        input[type='url'],
+        input[type='password'],
+        input[type='search'],
+        input[type='tel'],
+        input[type='number'],
+        textarea {
             display: block;
             width: 100%;
             background-color: $white-color;
@@ -4624,8 +4734,9 @@ blockquote {
                     weight: 600;
                     size: 14px;
                 }
-                &:hover, &:focus {
-                    opacity: .50;
+                &:hover,
+                &:focus {
+                    opacity: 0.5;
                 }
             }
         }
@@ -4633,11 +4744,17 @@ blockquote {
 }
 
 .text-container {
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         margin-bottom: 15px;
     }
 
-    ul, ol {
+    ul,
+    ol {
         padding-left: 17px;
         li {
             line-height: 1.8;
@@ -4678,7 +4795,7 @@ Page Title CSS
         left: 0;
         width: 100%;
         height: 100%;
-        opacity: .80;
+        opacity: 0.8;
     }
     .container {
         position: relative;
@@ -4690,7 +4807,7 @@ Page Title CSS
     z-index: -1;
     left: 30px;
     animation: rotate3d 4s linear infinite;
-    opacity: .4;
+    opacity: 0.4;
 }
 .shape2 {
     position: absolute;
@@ -4718,7 +4835,7 @@ Page Title CSS
     top: 10%;
     z-index: -1;
     animation: movebounce 5s linear infinite;
-    opacity: .2;
+    opacity: 0.2;
 }
 .shape6 {
     position: absolute;
@@ -4741,25 +4858,25 @@ Page Title CSS
 }
 @keyframes movebounce {
     0% {
-        transform: translateY(0px); 
+        transform: translateY(0px);
     }
     50% {
-        transform: translateY(20px); 
+        transform: translateY(20px);
     }
     100% {
-        transform: translateY(0px); 
-    } 
+        transform: translateY(0px);
+    }
 }
 @keyframes moveleftbounce {
     0% {
-        transform: translateX(0px); 
+        transform: translateX(0px);
     }
     50% {
-        transform: translateX(20px); 
+        transform: translateX(20px);
     }
     100% {
-        transform: translateX(0px); 
-    } 
+        transform: translateX(0px);
+    }
 }
 @keyframes rotate3d {
     0% {
@@ -4773,22 +4890,22 @@ Page Title CSS
 }
 @keyframes animationFramesOne {
     0% {
-        transform:  translate(0px,0px)  rotate(0deg) ;
+        transform: translate(0px, 0px) rotate(0deg);
     }
     20% {
-        transform:  translate(73px,-1px)  rotate(36deg) ;
+        transform: translate(73px, -1px) rotate(36deg);
     }
     40% {
-        transform:  translate(141px,72px)  rotate(72deg) ;
+        transform: translate(141px, 72px) rotate(72deg);
     }
     60% {
-        transform:  translate(83px,122px)  rotate(108deg) ;
+        transform: translate(83px, 122px) rotate(108deg);
     }
     80% {
-        transform:  translate(-40px,72px)  rotate(144deg) ;
+        transform: translate(-40px, 72px) rotate(144deg);
     }
     100% {
-        transform:  translate(0px,0px)  rotate(0deg) ;
+        transform: translate(0px, 0px) rotate(0deg);
     }
 }
 
@@ -4802,7 +4919,7 @@ Contact CSS
     padding: 30px 30px 30px 120px;
     margin-bottom: 30px;
     position: relative;
-    
+
     .icon {
         display: inline-block;
         width: 65px;
@@ -4910,7 +5027,7 @@ textarea.form-control {
                 weight: 600;
             }
             display: block;
-            margin-bottom: 10px
+            margin-bottom: 10px;
         }
         p {
             margin-bottom: 0;
@@ -4933,7 +5050,7 @@ textarea.form-control {
     margin: 0 auto;
     max-width: 650px;
     text-align: center;
-    
+
     .search-form {
         position: relative;
         margin-top: 45px;
@@ -4963,7 +5080,8 @@ textarea.form-control {
             font-weight: 600;
             transition: $transition;
 
-            &:hover, &:focus {
+            &:hover,
+            &:focus {
                 background-color: $black-color;
                 color: $white-color;
             }
@@ -4999,7 +5117,9 @@ Pagination CSS
             size: 17px;
             weight: 600;
         }
-        &.current, &:hover, &:focus {
+        &.current,
+        &:hover,
+        &:focus {
             background: $main-color;
             color: $white-color;
             box-shadow: unset;
@@ -5055,7 +5175,8 @@ Sidebar CSS
                 a {
                     color: $paragraph-color;
 
-                    &:hover, &:focus {
+                    &:hover,
+                    &:focus {
                         color: $main-color;
                     }
                 }
@@ -5109,7 +5230,7 @@ Sidebar CSS
     .widget_posts_thumb {
         position: relative;
         overflow: hidden;
-        
+
         .item {
             overflow: hidden;
             margin-bottom: 15px;
@@ -5166,7 +5287,7 @@ Sidebar CSS
             }
         }
     }
-    
+
     .widget_recent_entries {
         ul {
             li {
@@ -5194,7 +5315,7 @@ Sidebar CSS
         ul {
             li {
                 color: $paragraph-color;
-                
+
                 span {
                     display: inline-block;
                 }
@@ -5266,7 +5387,8 @@ Sidebar CSS
             }
             font-weight: 600;
 
-            &:hover, &:focus {
+            &:hover,
+            &:focus {
                 color: $white-color;
                 background-color: $main-color;
             }
@@ -5291,7 +5413,8 @@ Case Studies Details CSS
         width: 100%;
         height: 100%;
     }
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         img {
             transform: scale(1.3);
         }
@@ -5365,7 +5488,8 @@ Portfolio Details CSS
         height: 100%;
         cursor: all-scroll;
     }
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         img {
             transform: scale(1.3);
         }
@@ -5374,7 +5498,12 @@ Portfolio Details CSS
 .portfolio-desc {
     margin-top: 50px;
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         margin-bottom: 15px;
     }
     h1 {
@@ -5395,7 +5524,8 @@ Portfolio Details CSS
     h6 {
         font-size: 20px;
     }
-    ul, ol {
+    ul,
+    ol {
         margin-bottom: 20px;
         li {
             line-height: 1.4;
@@ -5524,7 +5654,7 @@ Portfolio Details CSS
             text-align: center;
         }
     }
-} 
+}
 
 .pd-preview-img {
     position: relative;
@@ -5537,13 +5667,13 @@ Portfolio Details CSS
             color: #fff;
             width: 90px;
             height: 90px;
-            &:before, &:after {
+            &:before,
+            &:after {
                 border: 1px solid #f9004d;
             }
         }
     }
 }
-
 
 /*================================================
 FAQ CSS
@@ -5574,7 +5704,9 @@ FAQ CSS
                     weight: 700;
                     family: var(--font-saira);
                 }
-                &:hover, &.active, &:focus {
+                &:hover,
+                &.active,
+                &:focus {
                     background: $main-color;
                     color: $white-color;
                     outline: 0;
@@ -5600,7 +5732,7 @@ FAQ CSS
         .accordion__panel {
             padding: 20px;
             border: 1px solid #eee;
-        } 
+        }
     }
 }
 .faq-contact {
@@ -5680,7 +5812,8 @@ Footer CSS
                     border-radius: 50%;
                     transition: $transition;
                 }
-                &:hover, &:focus {
+                &:hover,
+                &:focus {
                     &::before {
                         width: 100%;
                         height: 100%;
@@ -5745,7 +5878,8 @@ Footer CSS
                         visibility: hidden;
                         transition: $transition;
                     }
-                    &:hover, &:focus {
+                    &:hover,
+                    &:focus {
                         color: $main-color;
                         padding-left: 15px;
 
@@ -5789,7 +5923,8 @@ Footer CSS
                     display: inline-block;
                     color: $paragraph-color;
 
-                    &:hover, &:focus {
+                    &:hover,
+                    &:focus {
                         color: $main-color;
                     }
                 }
@@ -5815,7 +5950,8 @@ Footer CSS
             display: inline-block;
             color: $main-color;
 
-            &:hover, &:focus {
+            &:hover,
+            &:focus {
                 text-decoration: underline;
             }
         }
@@ -5825,7 +5961,7 @@ Footer CSS
     background-color: #000 !important;
     p {
         color: #fff;
-    } 
+    }
     .single-footer-widget {
         h3 {
             color: #fff;
@@ -5856,8 +5992,8 @@ Footer CSS
 /*================================================
 Go Top CSS
 =================================================*/
-.scroll-to-top  {
-	i {
+.scroll-to-top {
+    i {
         position: fixed;
         cursor: pointer;
         bottom: 20px;
@@ -5872,7 +6008,7 @@ Go Top CSS
         line-height: 40px;
         border-radius: 50%;
         transition: $transition;
-        
+
         &:hover {
             color: $white-color;
             background: $main-color;
@@ -5907,101 +6043,100 @@ span.new {
     top: 7px;
 }
 
-
 /* Coming Soon Area CSS */
 .coming-soon-area {
-	height: 100vh;
-	background: {
-		image: url(/images/coming-soon.jpg);
-		position: center center;
-		repeat: no-repeat;
-		size: cover;
-	}
+    height: 100vh;
+    background: {
+        image: url(/images/coming-soon.jpg);
+        position: center center;
+        repeat: no-repeat;
+        size: cover;
+    }
 }
 .coming-soon-content {
-	background-color: #fff;
-	border-radius: 10px;
-	max-width: 650px;
-	padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 650px;
+    padding: 40px;
 
-	.logo {
-		display: inline-block;
-	}
-	h2 {
-		font-size: 40px;
-		margin: {
-			top: 30px;
-			bottom: 0;
-		}
-	}
-	.coming-soon-countdown {
-		list-style-type: none;
-		padding-left: 0;
-		margin: {
-			top: 30px;
-			bottom: 0;
-		}
-		li {
-			border-radius: 5px;
-			font: {
-				size: 15px;
-				weight: 500;
-			}
-			margin: {
-				left: 20px;
-				right: 20px;
-			}
-			span {
-				color: $main-color;;
-				font: {
-					size: 40px;
-					weight: 700;
-				}
-			}
-			&:first-child {
-				margin-left: 0;
-			}
-			&:last-child {
-				margin-right: 0;
-			}
-		}
-	}
-	form {
-		position: relative;
-		margin-top: 40px;
+    .logo {
+        display: inline-block;
+    }
+    h2 {
+        font-size: 40px;
+        margin: {
+            top: 30px;
+            bottom: 0;
+        }
+    }
+    .coming-soon-countdown {
+        list-style-type: none;
+        padding-left: 0;
+        margin: {
+            top: 30px;
+            bottom: 0;
+        }
+        li {
+            border-radius: 5px;
+            font: {
+                size: 15px;
+                weight: 500;
+            }
+            margin: {
+                left: 20px;
+                right: 20px;
+            }
+            span {
+                color: $main-color;
+                font: {
+                    size: 40px;
+                    weight: 700;
+                }
+            }
+            &:first-child {
+                margin-left: 0;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    form {
+        position: relative;
+        margin-top: 40px;
 
-		.input-newsletter {
-			width: 100%;
-			height: 60px;
-			border: none;
-			display: block;
-			border-radius: 4px;
-			padding: 0 0 0 20px;
-			color: #000;
-			font-size: 15px;
-			transition: $transition;
-			background-color: transparent;
-			border: 1px solid rgba(0, 0, 0, 0.08);
+        .input-newsletter {
+            width: 100%;
+            height: 60px;
+            border: none;
+            display: block;
+            border-radius: 4px;
+            padding: 0 0 0 20px;
+            color: #000;
+            font-size: 15px;
+            transition: $transition;
+            background-color: transparent;
+            border: 1px solid rgba(0, 0, 0, 0.08);
 
-			&::placeholder {
-				color: $paragraph-color;
-				transition: $transition;
-			}
-			&:focus {
-				border-color: $main-color;
+            &::placeholder {
+                color: $paragraph-color;
+                transition: $transition;
+            }
+            &:focus {
+                border-color: $main-color;
 
-				&::placeholder {
-					color: transparent;
-				}
-			}
-		}
-		.default-btn-two {
+                &::placeholder {
+                    color: transparent;
+                }
+            }
+        }
+        .default-btn-two {
             top: 5px;
-			right: 5px;
-			bottom: 5px;
-			position: absolute;
-		}
-	}
+            right: 5px;
+            bottom: 5px;
+            position: absolute;
+        }
+    }
 }
 .quotes-slides {
     .swiper-pagination {
@@ -6010,7 +6145,7 @@ span.new {
         .swiper-pagination-bullet {
             width: 12px;
             height: 12px;
-            background: #D6D6D6;
+            background: #d6d6d6;
             border: 1px solid #b7b7b7;
             opacity: 1;
             &.swiper-pagination-bullet-active {
@@ -6020,7 +6155,8 @@ span.new {
         }
     }
 }
-.curve-shape, .oval-shape {
+.curve-shape,
+.oval-shape {
     position: absolute;
     bottom: 0;
     left: 0;
