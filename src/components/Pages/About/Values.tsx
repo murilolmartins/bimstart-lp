@@ -16,7 +16,6 @@ const Values = () => {
                                 <div
                                     className="col-lg-4 col-sm-6"
                                     key={value.title}
-                                    
                                 >
                                     <div className="service-card-one bg-fcfbfb bg-white border-0 text-center">
                                         <Image
@@ -25,9 +24,7 @@ const Values = () => {
                                             width={200}
                                             height={200}
                                         />
-                                        <h3 className="mt-5">
-                                                {value.title}
-                                        </h3>
+                                        <h3 className="mt-5">{value.title}</h3>
                                     </div>
                                 </div>
                             ))}

@@ -90,6 +90,7 @@ const TeamMember: React.FC = () => {
                                     key={value.name}
                                 >
                                     <div
+                                        className="dm-team-member"
                                         
                                     >
                                         <Image

@@ -105,7 +105,6 @@ const AboutUs: React.FC = () => {
                                 style={{
                                     textAlign: 'center'
                                 }}
-                                
                             >
                                 <Link
                                     href="/portfolio"

@@ -12,10 +12,7 @@ const History: React.FC = () => {
                     </div>
 
                     <div className="col-lg-12 col-md-12">
-                        <div
-                            className="bc-who-we-are-content"
-                            
-                        >
+                        <div className="bc-who-we-are-content">
                             <p>
                                 Nascida em 2018 e sediada em Curitiba-PR, a BIM
                                 START - Serviços Tecnológicos LTDA foi fundada
