@@ -1,3 +1,5 @@
+'use client';
+
 import { valuesData } from '@/constants/values';
 import Image from 'next/image';
 

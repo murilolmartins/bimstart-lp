@@ -5,7 +5,7 @@ export const menus = [
     },
     {
         label: 'Sobre',
-        link: '/about'
+        link: '/about/'
     },
     {
         label: 'Serviços',

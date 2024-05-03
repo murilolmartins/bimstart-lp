@@ -13,9 +13,6 @@ const Footer: React.FC = () => {
                     <div className="mb-4">
                         <div
                             className="single-footer-widget header-logo"
-                            data-aos="fade-in"
-                            data-aos-duration="1000"
-                            data-aos-delay="100"
                             style={{
                                 display: 'flex',
                                 justifyContent: 'space-between',
@@ -71,12 +68,7 @@ const Footer: React.FC = () => {
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-lg-6 col-sm-6">
-                            <div
-                                className="single-footer-widget ml-4"
-                                data-aos="fade-in"
-                                data-aos-duration="1000"
-                                data-aos-delay="300"
-                            >
+                            <div className="single-footer-widget ml-4">
                                 <h3>Paginas</h3>
 
                                 <ul className="list">
@@ -105,9 +97,7 @@ const Footer: React.FC = () => {
                         <div className="col-lg-6 col-sm-6">
                             <div
                                 className="single-footer-widget"
-                                data-aos="fade-in"
-                                data-aos-duration="1000"
-                                data-aos-delay="400"
+                               
                             >
                                 <h3>Onde Estamos?</h3>
 

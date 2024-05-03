@@ -1,29 +1,31 @@
-import '../styles/bootstrap.min.css';
-import '../styles/animate.min.css';
+import React from 'react';
+import '../../public/styles/bootstrap.min.css';
+import '../../public/styles/animate.min.css';
 import 'animate.css';
-import '../styles/all.min.css';
-import '../styles/pe-icon-7-stroke.css';
+import '../../public/styles/all.min.css';
+import '../../public/styles/pe-icon-7-stroke.css';
 import 'react-accessible-accordion/dist/fancy-example.css';
 import 'swiper/css';
 import 'swiper/css/bundle';
 
 // App Showcase Home Style
-import '../styles/app-home-page.css';
+import '../../public/styles/app-home-page.css';
 // Business Consulting Home Page Style
-import '../styles/business-consulting-home-page.css';
+import '../../public/styles/business-consulting-home-page.css';
 // About Page Style
-import '../styles/about-page.css';
+import '../../public/styles/about-page.css';
 
 // Global Style
-import '../styles/style.css';
-import '../styles/responsive.css';
+import '../../public/styles/style.css';
+import '../../public/styles/responsive.css';
 import './globals.css';
 
 import type { Metadata } from 'next';
 import { Inter, Saira } from 'next/font/google';
-import './globals.css';
-import GoTop from '@/components/Layouts/GoTop';
 import AosAnimation from '@/components/Layouts/AosAnimation';
+import GoTop from '@/components/Layouts/GoTop';
+import Navbar from '@/components/Layouts/Navbar';
+import Footer from '@/components/Layouts/Footer';
 
 // For all body text font
 const inter = Inter({
@@ -54,9 +56,14 @@ export default function RootLayout({
     return (
         <html lang="pt-BR">
             <body className={`${inter.variable} ${saira.variable}`}>
+                <Navbar />
                 {children}
+
                 <AosAnimation />
+
                 <GoTop />
+                
+                <Footer />
             </body>
         </html>
     );

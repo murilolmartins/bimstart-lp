@@ -5,7 +5,7 @@ import React from 'react';
 const History: React.FC = () => {
     return (
         <>
-            <div className="funfacts-area ptb-100 bg-fcfbfb">
+            <div className="ptb-100 bg-fcfbfb">
                 <div className="container">
                     <div className="section-title">
                         <h2>Nossa História</h2>

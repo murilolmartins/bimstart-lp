@@ -89,10 +89,7 @@ const TeamMember: React.FC = () => {
                                     className="col-lg-4 col-md-6 col-sm-6"
                                     key={value.name}
                                 >
-                                    <div
-                                        className="dm-team-member"
-                                        
-                                    >
+                                    <div className="dm-team-member">
                                         <Image
                                             src={value.image}
                                             alt="image"

@@ -205,3 +205,17 @@ About Us CSS
         }
     }
 }
+
+@media only screen and (min-width: 200px) and (max-width: 1400px) {
+    .team-area {
+        display: none;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1400px) {
+    .team-image-next {
+        display: none;
+    }
+}

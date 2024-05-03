@@ -12,10 +12,7 @@ const Mission: React.FC = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
                         <div
-                            className="about-image"
-                            data-aos="fade-in"
-                            data-aos-duration="1000"
-                            data-aos-delay="200"
+                            
                         >
                             <Image
                                 src={missionImg}
@@ -30,12 +27,7 @@ const Mission: React.FC = () => {
                     </div>
 
                     <div className="col-lg-6 col-md-12">
-                        <div
-                            className="about-content about-content-two"
-                            data-aos="fade-in"
-                            data-aos-duration="1000"
-                            data-aos-delay="100"
-                        >
+                        <div className="about-content about-content-two">
                             <div className="section-title">
                                 <h2>Nossa Missão</h2>
                                 <p>

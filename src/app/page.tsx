@@ -1,3 +1,4 @@
+import React from 'react';
 import Services from '@/components/Common/Services';
 import Footer from '@/components/Layouts/Footer';
 import Navbar from '@/components/Layouts/Navbar';
@@ -8,12 +9,10 @@ import ModelTenology from '@/components/Pages/Home/ModelTecnology';
 import Partners from '@/components/Pages/Home/Partners';
 import RealityCapture from '@/components/Pages/Home/RealityCapture';
 import { servicesData1, servicesData2 } from '@/constants/services';
-import React from 'react';
 
 export default function Page() {
     return (
         <>
-            <Navbar />
 
             <MainBanner />
 
@@ -31,7 +30,6 @@ export default function Page() {
 
             <Partners />
 
-            <Footer />
         </>
     );
 }
