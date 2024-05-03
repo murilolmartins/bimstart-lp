@@ -13,7 +13,7 @@ export default function Page() {
         <>
             <PageBanner
                 pageTitle="Sobre Nós"
-                BGImage="/images/about/banner/business-team-meeting-boardroom.jpg"
+                BGImage="/images/about/banner/bg.png"
             />
 
             <AboutUs />

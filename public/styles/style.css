@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 @File: Pungent Template Styles
 
@@ -365,6 +366,17 @@ label {
 /*================================================
 Navbar CSS
 =================================================*/
+.nav-bar-item::before {
+  bottom: -5px !important;
+  width: 60% !important;
+  background: linear-gradient(-45deg, rgb(44, 234, 251) 0%, rgb(81, 155, 0) 0%) !important;
+  height: 3px !important;
+  transition: all 0.5s ease !important;
+  left: 1px !important;
+  content: "" !important;
+  position: absolute !important;
+}
+
 .navbar-area {
   background: transparent;
   position: absolute;
@@ -5024,6 +5036,18 @@ Footer CSS
   z-index: 1;
 }
 
+.footer-nav-item::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  background: linear-gradient(-45deg, rgb(44, 234, 251) 0%, rgb(81, 155, 0) 0%) !important;
+  width: 10px !important;
+  height: 2px !important;
+  transition: all 0.5s ease !important;
+}
+
 .single-footer-widget .logo {
   margin-bottom: 20px;
 }
@@ -5272,10 +5296,25 @@ span.new {
 /* Coming Soon Area CSS */
 .coming-soon-area {
   height: 100vh;
-  background-image: url(/images/coming-soon.jpg);
+  background-image: url(/images/under-maintenance.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.coming-soon-area {
+  height: 100vh;
+  position: relative; /* Adicione isso para que a posição da sobreposição seja relativa ao contêiner */
+}
+
+.coming-soon-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Cor preta com 50% de opacidade */
 }
 
 .coming-soon-content {
@@ -5283,6 +5322,8 @@ span.new {
   border-radius: 10px;
   max-width: 650px;
   padding: 40px;
+  position: relative;
+  z-index: 3;
 }
 .coming-soon-content .logo {
   display: inline-block;

@@ -1,7 +1,5 @@
 import React from 'react';
 import Services from '@/components/Common/Services';
-import Footer from '@/components/Layouts/Footer';
-import Navbar from '@/components/Layouts/Navbar';
 import Equipments from '@/components/Pages/Home/Equipments';
 import HowItWorks from '@/components/Pages/Home/HowItWorks';
 import MainBanner from '@/components/Pages/Home/MainBanner';
@@ -13,7 +11,6 @@ import { servicesData1, servicesData2 } from '@/constants/services';
 export default function Page() {
     return (
         <>
-
             <MainBanner />
 
             <RealityCapture />
@@ -29,7 +26,6 @@ export default function Page() {
             <Equipments />
 
             <Partners />
-
         </>
     );
 }

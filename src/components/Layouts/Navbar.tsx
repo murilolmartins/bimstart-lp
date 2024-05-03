@@ -84,7 +84,7 @@ const Navbar: React.FC = () => {
 
                             <div className="others-options">
                                 <Link
-                                    href="/contact-us/"
+                                    href="/admin/"
                                     className="btn btn-primary"
                                 >
                                     Corporativo

@@ -3,8 +3,10 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 
 const Footer: React.FC = () => {
+    const pathname = usePathname();
     const currentYear = new Date().getFullYear();
     return (
         <>
@@ -73,32 +75,83 @@ const Footer: React.FC = () => {
 
                                 <ul className="list">
                                     <li>
-                                        <Link href="/">Home</Link>
+                                        <Link
+                                            href="/"
+                                            className={`${
+                                                pathname == '/'
+                                                    ? 'footer-nav-item'
+                                                    : ''
+                                            }`}
+                                        >
+                                            Home
+                                        </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Sobre</Link>
+                                        <Link
+                                            href="/about"
+                                            className={`${
+                                                pathname.includes('about')
+                                                    ? 'footer-nav-item'
+                                                    : ''
+                                            }`}
+                                        >
+                                            Sobre
+                                        </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Serviços</Link>
+                                        <Link
+                                            href="/services/"
+                                            className={`${
+                                                pathname.includes('services')
+                                                    ? 'footer-nav-item'
+                                                    : ''
+                                            }`}
+                                        >
+                                            Serviços
+                                        </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Tecnologia</Link>
+                                        <Link
+                                            href="/tecnology"
+                                            className={`${
+                                                pathname.includes('tecnology')
+                                                    ? 'footer-nav-item'
+                                                    : ''
+                                            }`}
+                                        >
+                                            Tecnologia
+                                        </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Blog</Link>
+                                        <Link
+                                            href="/blog"
+                                            className={
+                                                pathname.includes('blog')
+                                                    ? 'footer-nav-item'
+                                                    : ''
+                                            }
+                                        >
+                                            Blog
+                                        </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Contato</Link>
+                                        <Link href="/contact"
+                                        className={
+                                            pathname.includes('contact')
+                                                ? 'footer-nav-item'
+                                                : ''
+                                        }
+
+                                        >
+                                            Contato
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
                         <div className="col-lg-6 col-sm-6">
-                            <div
-                                className="single-footer-widget"
-                               
-                            >
+                            <div className="single-footer-widget">
                                 <h3>Onde Estamos?</h3>
 
                                 <iframe

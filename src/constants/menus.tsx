@@ -9,18 +9,18 @@ export const menus = [
     },
     {
         label: 'Serviços',
-        link: '/bim/servicos/'
+        link: '/services/',
     },
     {
         label: 'Tecnologia',
-        link: '/bim/tecnologia/'
+        link: '/tecnology/',
     },
     {
         label: 'Blog',
-        link: '/bim/blog/'
+        link: '/blog/',
     },
     {
         label: 'Contato',
-        link: '/bim/contato/'
+        link: '/contact/',
     }
 ];

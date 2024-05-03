@@ -107,7 +107,7 @@ const AboutUs: React.FC = () => {
                                 }}
                             >
                                 <Link
-                                    href="/portfolio"
+                                    href="/services/"
                                     className="btn btn-primary w-100"
                                 >
                                     Saiba Mais

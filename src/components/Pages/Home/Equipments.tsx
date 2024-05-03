@@ -54,7 +54,7 @@ const Equipments: React.FC = () => {
                         data-aos-duration="1000"
                         data-aos-delay="100"
                     >
-                        <Link href="/portfolio" className="btn btn-primary">
+                        <Link href="/tecnology" className="btn btn-primary">
                             Saiba Mais
                         </Link>
                     </div>
