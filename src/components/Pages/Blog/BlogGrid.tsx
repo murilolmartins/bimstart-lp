@@ -10,6 +10,9 @@ const BlogGrid: React.FC = () => {
         <>
             <div className="blog-area ptb-100">
                 <div className="container">
+                    <div className="section-title">
+                        <h2>Nossas Postagens</h2>
+                    </div>
                     <div className="row justify-content-center">
                         {blogPostData &&
                             blogPostData.map((value, i) => (
