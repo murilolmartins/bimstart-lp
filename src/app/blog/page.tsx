@@ -1,6 +1,18 @@
 import React from 'react';
-import UnderMaintenance from '@/components/Common/UnderMaintenance';
+import PageBanner from '../../components/Common/PageBanner';
+import BlogGrid from '@/components/Pages/Blog/BlogGrid';
+import Newsletter from '@/components/Common/Newsletter';
 
 export default function Page() {
-    return <UnderMaintenance />;
+    return (
+        <>
+            <PageBanner pageTitle="Blog" BGImage="/images/blog/banner1.png" />
+
+            <BlogGrid />
+
+            <div className="ptb-100 bg-fcfbfb">
+                <Newsletter />
+            </div>
+        </>
+    );
 }

@@ -17,26 +17,26 @@ import '../../public/styles/about-page.css';
 
 // Global Style
 import '../../public/styles/style.css';
-import '../../public/styles/responsive.css';
 import './globals.css';
 
 import type { Metadata } from 'next';
-import { Inter, Saira } from 'next/font/google';
+import {  Poppins, Roboto} from 'next/font/google';
 import AosAnimation from '@/components/Layouts/AosAnimation';
 import GoTop from '@/components/Layouts/GoTop';
 import Navbar from '@/components/Layouts/Navbar';
 import Footer from '@/components/Layouts/Footer';
 
 // For all body text font
-const inter = Inter({
-    weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+const inter = Roboto({
+    weight: ['100', '300', '400', '500', '700', '900'],
     subsets: ['latin'],
     variable: '--font-inter',
     display: 'swap'
 });
 
 // For all heading font
-const saira = Saira({
+const saira = Poppins({
+    weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
     subsets: ['latin'],
     variable: '--font-saira',
     display: 'swap'
@@ -62,7 +62,7 @@ export default function RootLayout({
                 <AosAnimation />
 
                 <GoTop />
-                
+
                 <Footer />
             </body>
         </html>

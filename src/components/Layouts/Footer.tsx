@@ -135,15 +135,27 @@ const Footer: React.FC = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/contact"
-                                        className={
-                                            pathname.includes('contact')
-                                                ? 'footer-nav-item'
-                                                : ''
-                                        }
-
+                                        <Link
+                                            href="/contact"
+                                            className={
+                                                pathname.includes('contact')
+                                                    ? 'footer-nav-item'
+                                                    : ''
+                                            }
                                         >
                                             Contato
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            href="/faq"
+                                            className={
+                                                pathname.includes('faq')
+                                                    ? 'footer-nav-item'
+                                                    : ''
+                                            }
+                                        >
+                                            FAQ
                                         </Link>
                                     </li>
                                 </ul>

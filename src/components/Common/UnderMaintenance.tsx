@@ -32,8 +32,11 @@ const UnderMaintenance: React.FC = () => {
                                     </b>
                                 </p>
                                 <p>
-    <b>Aguarde, grandes novidades estão a caminho!</b>
-</p>
+                                    <b>
+                                        Aguarde, grandes novidades estão a
+                                        caminho!
+                                    </b>
+                                </p>
                             </div>
                         </div>
                     </div>

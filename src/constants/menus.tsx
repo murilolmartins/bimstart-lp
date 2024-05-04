@@ -9,18 +9,22 @@ export const menus = [
     },
     {
         label: 'Serviços',
-        link: '/services/',
+        link: '/services/'
     },
     {
         label: 'Tecnologia',
-        link: '/tecnology/',
+        link: '/tecnology/'
     },
     {
         label: 'Blog',
-        link: '/blog/',
+        link: '/blog/'
     },
     {
         label: 'Contato',
-        link: '/contact/',
+        link: '/contact/'
+    },
+    {
+        label: 'FAQ',
+        link: '/faq'
     }
 ];
