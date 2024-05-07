@@ -45,7 +45,7 @@ const Metrics: React.FC = () => {
             <div className="funfacts-area ptb-100 bg-fcfbfb">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Nossa Métricas</h2>
+                        <h2>Nossas Métricas</h2>
                         <p>
                             Empresas em todo o Brasil confiam na BIM Start para
                             digitalizar seus empreendimentos.

@@ -14,13 +14,15 @@ import '../../public/styles/app-home-page.css';
 import '../../public/styles/business-consulting-home-page.css';
 // About Page Style
 import '../../public/styles/about-page.css';
+// Tecnology Page Style
+import '../../public/styles/tecnology-page.css';
 
 // Global Style
 import '../../public/styles/style.css';
 import './globals.css';
 
 import type { Metadata } from 'next';
-import {  Poppins, Roboto} from 'next/font/google';
+import { Poppins, Roboto } from 'next/font/google';
 import AosAnimation from '@/components/Layouts/AosAnimation';
 import GoTop from '@/components/Layouts/GoTop';
 import Navbar from '@/components/Layouts/Navbar';

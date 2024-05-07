@@ -1,7 +1,17 @@
-import UnderMaintenance from '@/components/Common/UnderMaintenance';
 import React from 'react';
-
+import PageBanner from '../../components/Common/PageBanner';
+import Equipments from '@/components/Pages/Tecnology/Equipments';
+import Setup from '@/components/Pages/Tecnology/Setup';
 
 export default function Page() {
-    return <UnderMaintenance />;
+    return (
+        <>
+            <PageBanner pageTitle="Tecnologia" BGImage="/images/tecnology/banner.png" />
+
+            <Setup />
+
+            <Equipments />
+
+        </>
+    );
 }
