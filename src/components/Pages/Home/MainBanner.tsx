@@ -41,7 +41,7 @@ const MainBanner: React.FC = () => {
                     <div
                         className="hero-banner overly"
                         style={{
-                            backgroundImage: `url(/images/home/banner/31.png)`
+                            backgroundImage: `url(/images/home/banner/31.webp)`
                         }}
                     >
                         <div className="d-table">
@@ -63,7 +63,7 @@ const MainBanner: React.FC = () => {
                     <div
                         className="hero-banner overly"
                         style={{
-                            backgroundImage: `url(/images/home/banner/14.png)`
+                            backgroundImage: `url(/images/home/banner/14.webp)`
                         }}
                     >
                         <div className="d-table">
@@ -85,7 +85,7 @@ const MainBanner: React.FC = () => {
                     <div
                         className="hero-banner overly"
                         style={{
-                            backgroundImage: `url(/images/home/banner/8.png)`
+                            backgroundImage: `url(/images/home/banner/8.webp)`
                         }}
                     >
                         <div className="d-table">

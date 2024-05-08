@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import FsLightbox from 'fslightbox-react';
 import Image from 'next/image';
 
-import realityCaptureImg from '../../../../public/images/home/reality-capture/reality-capture.png';
+import realityCaptureImg from '../../../../public/images/home/reality-capture/reality-capture.webp';
 
 const RealityCapture: React.FC = () => {
     const [toggler, setToggler] = useState(false);

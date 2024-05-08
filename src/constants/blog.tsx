@@ -3,7 +3,7 @@ import { blogPost1 } from './posts/post1';
 export const blogPostData = [
     {
         id: 1,
-        image: '/images/blog/post1/banner.jpg',
+        image: '/images/blog/post1/banner.webp',
         title: 'BIMSTART e Grupo KALLAS se unem para inovar.',
         date: '08 Abril, 2024',
         category: 'Tecnologia',

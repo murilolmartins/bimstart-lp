@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-import ceoTalkingImg from '../../../../public/images/about/aboutus/18.png';
+import ceoTalkingImg from '../../../../public/images/about/aboutus/18.webp';
 import ceoTalkingImg2 from '../../../../public/images/about/aboutus/17.png';
 import image1 from '../../../../public/images/about/aboutus/box-1.png';
 import image2 from '../../../../public/images/about/aboutus/box-2.png';

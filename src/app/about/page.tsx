@@ -7,13 +7,18 @@ import Values from '../../components/Pages/About/Values';
 import TeamMember from '../../components/Pages/About/TeamMember';
 import Team from '../../components/Pages/About/Team';
 import History from '../../components/Pages/About/History';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'BIM START - Sobre'
+};
 
 export default function Page() {
     return (
         <>
             <PageBanner
                 pageTitle="Sobre Nós"
-                BGImage="/images/about/banner/bg.png"
+                BGImage="/images/about/banner/bg.webp"
             />
 
             <AboutUs />
