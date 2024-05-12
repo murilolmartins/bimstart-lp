@@ -38,24 +38,7 @@ About Us CSS
     gap: 20px;
 }
 
-@media only screen and (max-width: 992px) {
-    .ceo-image-2 {
-        display: none;
-    }
 
-    .about-us-card {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .about-us-container {
-        flex-direction: column;
-    }
-
-    .about-us-container-text {
-        width: 100% !important;
-    }
-}
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .card-image {

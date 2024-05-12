@@ -7,6 +7,7 @@ import '../../public/styles/pe-icon-7-stroke.css';
 import 'react-accessible-accordion/dist/fancy-example.css';
 import 'swiper/css';
 import 'swiper/css/bundle';
+import 'react-toastify/dist/ReactToastify.css';
 
 // App Showcase Home Style
 import '../../public/styles/app-home-page.css';
@@ -24,9 +25,11 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Poppins, Roboto } from 'next/font/google';
 import AosAnimation from '@/components/Layouts/AosAnimation';
+import { ToastContainer } from 'react-toastify';
 import GoTop from '@/components/Layouts/GoTop';
 import Navbar from '@/components/Layouts/Navbar';
 import Footer from '@/components/Layouts/Footer';
+import { ConfimModal } from '@/components/Common/ConfimModal';
 
 // For all body text font
 const inter = Roboto({
@@ -50,6 +53,7 @@ export const metadata: Metadata = {
         'BIM START is a leading provider of reality capture and 3D modeling services for a wide range of industries.'
 };
 
+
 export default function RootLayout({
     children
 }: Readonly<{
@@ -63,7 +67,11 @@ export default function RootLayout({
 
                 <AosAnimation />
 
+                <ToastContainer />
+
                 <GoTop />
+
+                <ConfimModal />
 
                 <Footer />
             </body>

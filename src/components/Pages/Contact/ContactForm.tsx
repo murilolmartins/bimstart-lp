@@ -1,44 +1,10 @@
 'use client';
 
-import React, { useState } from 'react';
-
-interface FormState {
-    name: string;
-    email: string;
-    number: string;
-    subject: string;
-    message: string;
-}
+import React from 'react';
+import { useContactForm } from './hooks/useContactForm';
 
 const ContactForm: React.FC = () => {
-    const [formData, setFormData] = useState<FormState>({
-        name: '',
-        email: '',
-        number: '',
-        subject: '',
-        message: ''
-    });
-
-    const handleChange = (
-        e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-    ) => {
-        const { name, value } = e.target;
-        setFormData({ ...formData, [name]: value });
-    };
-
-    const handleSubmit = (e: React.FormEvent) => {
-        e.preventDefault();
-        // Handle form submission logic here
-        console.log(formData);
-        // Reset form data after submission if needed
-        setFormData({
-            name: '',
-            email: '',
-            number: '',
-            subject: '',
-            message: ''
-        });
-    };
+    const { register, submit, errors, isSubmitting } = useContactForm();
 
     return (
         <>
@@ -46,13 +12,13 @@ const ContactForm: React.FC = () => {
                 <div className="contact-title">
                     <h2>Entre em Contato</h2>
                     <p>
-                        Preencha seus dados e escreva uma breve mensagem descrevendo
-                        suas necessidades, e entraremos em contato o mais breve
-                        possível.
+                        Preencha seus dados e escreva uma breve mensagem
+                        descrevendo suas necessidades, e entraremos em contato o
+                        mais breve possível.
                     </p>
                 </div>
 
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={submit}>
                     <div className="container">
                         <div className="contact-form-box">
                             <div className="row">
@@ -60,12 +26,22 @@ const ContactForm: React.FC = () => {
                                     <div className="form-group">
                                         <input
                                             type="text"
-                                            name="name"
-                                            placeholder="Name"
+                                            placeholder="Nome"
                                             className="form-control"
-                                            value={formData.name}
-                                            onChange={handleChange}
+                                            {...register('name')}
+                                            name="name"
                                             required
+                                            onInvalid={(e) =>
+                                                errors.name?.message &&
+                                                e.currentTarget.setCustomValidity(
+                                                    errors.name.message
+                                                )
+                                            }
+                                            onInput={(e) => {
+                                                e.currentTarget.setCustomValidity(
+                                                    ''
+                                                );
+                                            }}
                                         />
                                     </div>
                                 </div>
@@ -74,12 +50,22 @@ const ContactForm: React.FC = () => {
                                     <div className="form-group">
                                         <input
                                             type="email"
-                                            name="email"
                                             placeholder="Email"
                                             className="form-control"
-                                            value={formData.email}
-                                            onChange={handleChange}
+                                            {...register('email')}
+                                            name="email"
                                             required
+                                            onInvalid={(e) =>
+                                                errors.email?.message &&
+                                                e.currentTarget.setCustomValidity(
+                                                    errors.email.message
+                                                )
+                                            }
+                                            onInput={(e) => {
+                                                e.currentTarget.setCustomValidity(
+                                                    ''
+                                                );
+                                            }}
                                         />
                                     </div>
                                 </div>
@@ -88,12 +74,22 @@ const ContactForm: React.FC = () => {
                                     <div className="form-group">
                                         <input
                                             type="tel"
-                                            name="number"
                                             placeholder="Telefone"
                                             className="form-control"
-                                            value={formData.number}
-                                            onChange={handleChange}
+                                            {...register('number')}
+                                            name="number"
                                             required
+                                            onInvalid={(e) =>
+                                                errors.number?.message &&
+                                                e.currentTarget.setCustomValidity(
+                                                    errors.number.message
+                                                )
+                                            }
+                                            onInput={(e) => {
+                                                e.currentTarget.setCustomValidity(
+                                                    ''
+                                                );
+                                            }}
                                         />
                                     </div>
                                 </div>
@@ -102,12 +98,22 @@ const ContactForm: React.FC = () => {
                                     <div className="form-group">
                                         <input
                                             type="text"
-                                            name="subject"
                                             placeholder="Assunto"
                                             className="form-control"
-                                            value={formData.subject}
-                                            onChange={handleChange}
+                                            {...register('subject')}
+                                            name="subject"
                                             required
+                                            onInvalid={(e) =>
+                                                errors.subject?.message &&
+                                                e.currentTarget.setCustomValidity(
+                                                    errors.subject.message
+                                                )
+                                            }
+                                            onInput={(e) => {
+                                                e.currentTarget.setCustomValidity(
+                                                    ''
+                                                );
+                                            }}
                                         />
                                     </div>
                                 </div>
@@ -115,14 +121,19 @@ const ContactForm: React.FC = () => {
                                 <div className="col-lg-12 col-md-12">
                                     <div className="form-group">
                                         <textarea
-                                            name="message"
                                             cols={30}
                                             rows={6}
                                             placeholder="Escreva sua mensagem..."
                                             className="form-control"
-                                            value={formData.message}
-                                            onChange={handleChange}
+                                            {...register('message')}
+                                            name="message"
                                             required
+                                            onInvalid={(e) =>
+                                                errors.message?.message &&
+                                                e.currentTarget.setCustomValidity(
+                                                    errors.message.message
+                                                )
+                                            }
                                         />
                                     </div>
                                 </div>
@@ -130,7 +141,12 @@ const ContactForm: React.FC = () => {
                                 <div className="col-lg-12 col-sm-12">
                                     <button
                                         type="submit"
-                                        className="btn btn-primary"
+                                        className={
+                                            isSubmitting
+                                                ? 'btn btn-primary disabled'
+                                                : 'btn btn-primary'
+                                        }
+                                        disabled={isSubmitting}
                                     >
                                         Enviar
                                     </button>

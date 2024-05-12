@@ -9,26 +9,33 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.0",
+    "@hookform/resolvers": "^3.3.4",
     "@types/aos": "^3.0.7",
     "@types/fslightbox-react": "^1.7.7",
+    "@types/nodemailer": "^6.4.15",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "fslightbox-react": "^1.7.6",
+    "next": "14.1.0",
+    "nodemailer": "^6.9.13",
+    "react": "^18",
     "react-accessible-accordion": "^5.0.0",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.4",
     "react-tabs": "^6.0.2",
+    "react-toastify": "^10.0.5",
     "sass": "^1.70.0",
     "sharp": "^0.33.2",
-    "swiper": "^11.0.5"
+    "swiper": "^11.0.5",
+    "yup": "^1.4.0",
+    "zustand": "^4.5.2"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "eslint-config-next": "14.1.0",
+    "typescript": "^5"
   }
 }
