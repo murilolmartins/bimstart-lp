@@ -12,16 +12,8 @@ const teamMemberData = [
 
         socialLinks: [
             {
-                iconName: 'fab fa-facebook-f',
-                link: 'https://www.facebook.com/'
-            },
-            {
-                iconName: 'fab fa-instagram',
-                link: 'https://www.instagram.com/'
-            },
-            {
-                iconName: 'fab fa-twitter',
-                link: 'https://www.twitter.com/'
+                iconName: 'fab fa-linkedin',
+                link: 'https://www.linkedin.com/in/eduardo-pasini-correa-de-oliveira/'
             }
         ]
     },
@@ -33,16 +25,8 @@ const teamMemberData = [
 
         socialLinks: [
             {
-                iconName: 'fab fa-facebook-f',
-                link: 'https://www.facebook.com/'
-            },
-            {
-                iconName: 'fab fa-instagram',
-                link: 'https://www.instagram.com/'
-            },
-            {
-                iconName: 'fab fa-twitter',
-                link: 'https://www.twitter.com/'
+                iconName: 'fab fa-linkedin',
+                link: 'https://www.linkedin.com/in/sergio-kubrusly-b47682129/'
             }
         ]
     },
@@ -54,17 +38,10 @@ const teamMemberData = [
 
         socialLinks: [
             {
-                iconName: 'fab fa-facebook-f',
-                link: 'https://www.facebook.com/'
+                iconName: 'fab fa-linkedin',
+                link: 'https://www.linkedin.com/in/diogo-araujo-0031b5186/'
             },
-            {
-                iconName: 'fab fa-instagram',
-                link: 'https://www.instagram.com/'
-            },
-            {
-                iconName: 'fab fa-twitter',
-                link: 'https://www.twitter.com/'
-            }
+           
         ]
     }
 ];
