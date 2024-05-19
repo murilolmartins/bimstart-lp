@@ -41,6 +41,7 @@ This files table contents are outlined below >>>>>
 ** - FAQ CSS
 ** - Footer CSS
 ** - Go Top CSS
+** - Introduction CSS
 */
 /* Default CSS */
 body {
@@ -2385,18 +2386,34 @@ Feedback CSS
 .feedback-list {
   text-align: center;
 }
+.feedback-list .feedback-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.feedback-list .feedback-image .feedback-image-container {
+  width: 120px;
+  position: relative;
+}
 .feedback-list .quotes-icon {
   background: linear-gradient(-45deg, rgb(44, 234, 251) 0%, rgb(81, 155, 0) 0%);
   margin: 0 auto;
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   text-align: center;
   line-height: 65px;
   margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 90px;
+  left: 0;
 }
 .feedback-list .quotes-icon img {
-  width: 50px;
+  width: 25px;
 }
 
 .single-feedback {
@@ -5570,6 +5587,32 @@ span.new {
   font-size: 26px;
 }
 
+/*================================================
+Introduction CSS
+=================================================*/
+.introduction-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 200px;
+  padding-top: 100px;
+}
+.introduction-container .introduction-text h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.introduction-container .introduction-text h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
 /* Max width 767px */
 @media only screen and (max-width: 767px) {
   body {
@@ -5909,15 +5952,6 @@ span.new {
     font-size: 19px;
     margin-top: 20px;
     margin-bottom: 12px;
-  }
-  .feedback-list .quotes-icon {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 30px;
-    line-height: 60px;
-  }
-  .feedback-list .quotes-icon img {
-    width: 30px;
   }
   .single-feedback p {
     font-size: 15px;
@@ -6649,6 +6683,19 @@ span.new {
   .coming-soon-content form .default-btn-two {
     font-size: 13px;
     padding: 7px 20px;
+  }
+  .introduction-container {
+    gap: 120px;
+    padding-top: 50px;
+  }
+  .introduction-container .introduction-text h2 {
+    font-size: 30px;
+  }
+  .introduction-container .introduction-text h3 {
+    font-size: 20px;
+  }
+  .introduction-container .introduction-arrow img {
+    width: 70px !important;
   }
 }
 /* Min width 576px to Max width 767px */

@@ -41,10 +41,9 @@ const Services = ({ servicesData, title, titleMinHeight }: ServicesProps) => {
                                         />
                                         <h3
                                             className="mt-5"
-                                            style={
-                                                { minHeight: titleMinHeight }
-                                                   
-                                            }
+                                            style={{
+                                                minHeight: titleMinHeight
+                                            }}
                                         >
                                             {value.title}
                                         </h3>
