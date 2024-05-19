@@ -57,7 +57,9 @@ export const useContactForm = () => {
                                 assistência possível.
                             </p>
                             <p>Agradecemos o contato.</p>
-                            <p><b>Até Breve!</b></p>
+                            <p>
+                                <b>Até Breve!</b>
+                            </p>
                         </div>
 
                         <button

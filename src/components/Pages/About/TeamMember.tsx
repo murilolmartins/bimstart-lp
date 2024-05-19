@@ -40,8 +40,7 @@ const teamMemberData = [
             {
                 iconName: 'fab fa-linkedin',
                 link: 'https://www.linkedin.com/in/diogo-araujo-0031b5186/'
-            },
-           
+            }
         ]
     }
 ];

@@ -2,32 +2,32 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { equipmentsData } from '@/constants/tecnology';
+import { bsModelerCardsData } from '@/constants/tecnology';
+import useWidth from '@/hooks/useWidth';
 
-
-
-const Equipments: React.FC = () => {
+const BsModelerCards: React.FC = () => {
+    const { width, breakpoints } = useWidth();
     return (
         <>
-            <div className="pt-100 pb-70 bg-fcfbfb">
+            <div className="pt-100 pb-70">
                 <div className="container">
-                    <div className="section-title">
-                        <h2>Nossos Equipamentos</h2>
-                    </div>
                     <div className="row justify-content-center">
-                        {equipmentsData &&
-                            equipmentsData.map((value, i) => (
+                        {bsModelerCardsData &&
+                            bsModelerCardsData.map((value, i) => (
                                 <div
-                                    className="col-lg-4 col-sm-6"
-                                    key={i}
+                                    className="col-lg-3 col-sm-6"
+                                    key={value.title}
                                     data-aos="fade-in"
                                     data-aos-duration="1000"
                                     data-aos-delay={value.aosDelay}
                                 >
                                     <div
-                                        className="service-card-one bg-fcfbfb text-center bg-white d-flex flex-column align-content-center justify-content-center pt-1"
+                                        className="service-card-one bg-fcfbfb text-center bg-white d-flex flex-column pt-5"
                                         style={{
-                                            minHeight: '700px'
+                                            minHeight:
+                                                (width > Number(breakpoints.xxl) || width < Number(breakpoints.lg))
+                                                    ? '530px'
+                                                    : '590px'
                                         }}
                                     >
                                         <div
@@ -42,14 +42,14 @@ const Equipments: React.FC = () => {
                                             <Image
                                                 src={value.image}
                                                 alt="image"
-                                                width={value.size}
-                                                height={value.size}
+                                                width={150}
+                                                height={200}
                                             />
                                         </div>
                                         <h3
                                             className="mt-5 border-bottom pb-3"
                                             style={{
-                                                minHeight: '80px'
+                                                minHeight: '90px'
                                             }}
                                         >
                                             {value.title}
@@ -65,4 +65,4 @@ const Equipments: React.FC = () => {
     );
 };
 
-export default Equipments;
+export default BsModelerCards;

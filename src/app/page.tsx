@@ -17,11 +17,11 @@ export default function Page() {
 
             <HowItWorks />
 
-            <Services servicesData={servicesData1} title="Aplicações" />
+            <Services servicesData={servicesData1} title="Aplicações" titleMinHeight='60px'/>
 
             <ModelTenology />
 
-            <Services servicesData={servicesData2} title="Serviços" />
+            <Services servicesData={servicesData2} title="Serviços" titleMinHeight='85px'/>
 
             <Equipments />
 

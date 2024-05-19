@@ -29,7 +29,7 @@ export const servicesData1 = [
         shortText:
             'Facilita o levantamento preciso de terrenos e mapeamento, economizando tempo e recursos.',
         viewDetails: '/services/service-details/',
-        aosDelay: '400'
+        aosDelay: '100'
     },
     {
         image: '/images/home/services/card-5.png',
@@ -37,7 +37,7 @@ export const servicesData1 = [
         shortText:
             'Ajuda na preservação e restauração de edifícios históricos, fornecendo modelos digitais para guiar o trabalho de restauração.',
         viewDetails: '/services/service-details/',
-        aosDelay: '500'
+        aosDelay: '200'
     },
     {
         image: '/images/home/services/card-6.png',
@@ -45,7 +45,7 @@ export const servicesData1 = [
         shortText:
             'Permite o monitoramento de colheitas, o planejamento agrícola e a gestão de recursos, melhorando a produtividade.',
         viewDetails: '/services/service-details/',
-        aosDelay: '600'
+        aosDelay: '300'
     },
     {
         image: '/images/home/services/card-7.png',
@@ -53,7 +53,7 @@ export const servicesData1 = [
         shortText:
             'Auxilia no planejamento de minas, otimizando a extração e garantindo a segurança dos trabalhadores.',
         viewDetails: '/services/service-details/',
-        aosDelay: '700'
+        aosDelay: '100'
     },
     {
         image: '/images/home/services/card-8.png',
@@ -61,7 +61,7 @@ export const servicesData1 = [
         shortText:
             'É fundamental para o planejamento e manutenção de estradas, pontes e outras infraestruturas, garantindo a segurança e eficiência das operações.',
         viewDetails: '/services/service-details/',
-        aosDelay: '800'
+        aosDelay: '200'
     }
 ];
 
@@ -96,7 +96,7 @@ export const servicesData2 = [
         shortText:
             'Projetos As Built registram a construção e Projetos As Is avaliam a condição atual do objeto de estudo, priorizando precisão e conformidade.',
         viewDetails: '/services/service-details/',
-        aosDelay: '400'
+        aosDelay: '100'
     },
     {
         image: '/images/home/services-2/card-5.png',
@@ -104,7 +104,7 @@ export const servicesData2 = [
         shortText:
             'Na BIM START, adaptamos ao workflow do cliente, entregando arquivos 2D convencionais mesmo trabalhando essencialmente em 3D, sem exigir investimentos adicionais do contratante.',
         viewDetails: '/services/service-details/',
-        aosDelay: '500'
+        aosDelay: '200'
     },
     {
         image: '/images/home/services-2/card-6.png',
@@ -112,7 +112,7 @@ export const servicesData2 = [
         shortText:
             'Aerolevantamento realizado com veículos aéreos não tripulados de última geração, com equipe de profissionais especializados para dar suporte ao cliente.',
         viewDetails: '/services/service-details/',
-        aosDelay: '600'
+        aosDelay: '300'
     },
     {
         image: '/images/home/services-2/card-7.png',
@@ -120,7 +120,7 @@ export const servicesData2 = [
         shortText:
             'Levantamentos batimétricos convencionais substituídos por USV’s, aumentando produtividade, reduzindo custos e garantindo segurança da equipe.',
         viewDetails: '/services/service-details/',
-        aosDelay: '700'
+        aosDelay: '100'
     },
     {
         image: '/images/home/services-2/card-8.png',
@@ -128,6 +128,6 @@ export const servicesData2 = [
         shortText:
             'É fundamental para o planejamento e manutenção de estradas, pontes e outras infraestruturas, garantindo a segurança e eficiência das operações.',
         viewDetails: '/services/service-details/',
-        aosDelay: '800'
+        aosDelay: '200'
     }
 ];

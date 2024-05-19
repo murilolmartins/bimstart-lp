@@ -9,9 +9,10 @@ interface ServicesProps {
         aosDelay: string;
     }[];
     title: string;
+    titleMinHeight: string;
 }
 
-const Services = ({ servicesData , title}: ServicesProps) => {
+const Services = ({ servicesData, title, titleMinHeight }: ServicesProps) => {
     return (
         <>
             <div className="pt-100 pb-70">
@@ -38,8 +39,14 @@ const Services = ({ servicesData , title}: ServicesProps) => {
                                             height={200}
                                             className="service-image"
                                         />
-                                        <h3 className="mt-5">
-                                                {value.title}
+                                        <h3
+                                            className="mt-5"
+                                            style={
+                                                { minHeight: titleMinHeight }
+                                                   
+                                            }
+                                        >
+                                            {value.title}
                                         </h3>
                                         <p>{value.shortText}</p>
                                     </div>

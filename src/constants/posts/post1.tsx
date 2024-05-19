@@ -125,7 +125,7 @@ export const blogPost1 = {
             </p>
 
             <Image
-                src="/images/blog/post1/banner.jpg"
+                src="/images/blog/post1/banner.webp"
                 alt="image"
                 width={510}
                 height={383}
