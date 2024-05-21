@@ -9,10 +9,10 @@ import { equipmentsData } from '@/constants/tecnology';
 const Equipments: React.FC = () => {
     return (
         <>
-            <div className="pt-100 pb-70 bg-fcfbfb">
+            <div className="pt-100 pb-70">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Nossos Equipamentos</h2>
+                        <h2>Setup de equipamentos com tecnologia de ponta.</h2>
                     </div>
                     <div className="row justify-content-center">
                         {equipmentsData &&

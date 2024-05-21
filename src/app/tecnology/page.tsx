@@ -12,6 +12,7 @@ import {
 } from '@/constants/tecnology';
 import BsModelerCards from '@/components/Pages/Tecnology/BSModelerCards';
 import GIS from '@/components/Pages/Tecnology/GIS';
+import BIM from '@/components/Pages/Tecnology/BIM';
 
 export const metadata: Metadata = {
     title: 'BIM START - Tecnologia'
@@ -27,17 +28,19 @@ export default function Page() {
 
             <TecnologySection {...realityCapture} invert />
 
+            <BIM />
+
+            <TecnologySection {...bsmodeler} />
+
+            <BsModelerCards />
+
+            <TecnologySection {...computerVision} invert />
+
             <GIS />
 
             <TecnologySection {...cloudBased} invert />
 
             <TecnologySection {...ai} black />
-
-            <TecnologySection {...computerVision} gray invert/>
-
-            <TecnologySection {...bsmodeler} />
-
-            <BsModelerCards />
 
             <Equipments />
         </>

@@ -52,7 +52,7 @@ $gradient-color: linear-gradient(
     rgba(44, 234, 251, 1) 0%,
     rgba(81, 155, 0, 1) 0%
 );
-$font-size: 15px;
+$font-size: 16px;
 $black-color: #18181b;
 $paragraph-color: #646464;
 $white-color: #ffffff;
@@ -374,7 +374,7 @@ a {
     padding: 13px 30px;
     display: inline-block;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
     transition: $transition;
     &:hover,
     &:focus {
@@ -536,7 +536,7 @@ Navbar CSS
                     }
 
                     i {
-                        font-size: 15px;
+                        font-size: 16px;
                         position: relative;
                         top: 1px;
                         display: inline-block;
@@ -1076,6 +1076,48 @@ Main Banner CSS
         margin-top: 50px;
     }
 }
+
+.hero-banner-2 {
+    position: relative;
+    background: url('/images/tecnology/bim/bim.webp');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &.overly {
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(
+                180deg,
+                rgba(0, 0, 0, 0.822) 75%,
+                rgba(255, 255, 255, 0.781) 100%
+            );
+            z-index: 1; /* Ensures the overlay is above the background image */
+        }
+
+        .container {
+            position: relative;
+            z-index: 2; /* Ensures the content is above the overlay */
+            padding-bottom: 150px;
+
+            div {
+                h2 {
+                    color: $white-color;
+                }
+
+                p {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+}
+
 #particles-js {
     canvas {
         width: 100%;
@@ -2587,7 +2629,7 @@ Services CSS
     position: relative;
     box-shadow: 0px 2px 4px 0px rgba(12, 0, 46, 0.04);
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
     border: 1px solid #f2effc;
     cursor: pointer;
     transition: $transition;
@@ -3138,7 +3180,7 @@ Team CSS
         }
         p {
             margin: 0;
-            font-size: 15px;
+            font-size: 16px;
         }
         ul {
             list-style-type: none;
@@ -4763,7 +4805,7 @@ blockquote {
         margin-bottom: 1em;
     }
     .comment-author {
-        font-size: 15px;
+        font-size: 16px;
         margin-bottom: 0.4em;
         position: relative;
         z-index: 2;
@@ -4821,12 +4863,12 @@ blockquote {
                 weight: 700;
             }
             #cancel-comment-reply-link {
-                font-size: 15px;
+                font-size: 16px;
                 display: inline-block;
             }
         }
         .comment-notes {
-            font-size: 15px;
+            font-size: 16px;
             margin: {
                 bottom: 0;
                 top: 10px;
@@ -5796,7 +5838,7 @@ Portfolio Details CSS
         span {
             display: block;
             color: $paragraph-color;
-            font-size: 15px;
+            font-size: 16px;
         }
         .social {
             padding-left: 0;
@@ -6154,7 +6196,7 @@ Footer CSS
     }
     p {
         color: $white-color;
-        font-size: 15px;
+        font-size: 16px;
         a {
             display: inline-block;
             color: $main-color;
@@ -6340,7 +6382,7 @@ span.new {
             border-radius: 4px;
             padding: 0 0 0 20px;
             color: #000;
-            font-size: 15px;
+            font-size: 16px;
             transition: $transition;
             background-color: transparent;
             border: 1px solid rgba(0, 0, 0, 0.08);
@@ -6673,7 +6715,7 @@ Introduction CSS
             }
             p {
                 margin-bottom: 15px;
-                font-size: 15px;
+                font-size: 16px;
             }
             .btn-primary,
             .btn-secondary {
@@ -6895,7 +6937,7 @@ Introduction CSS
 
     .single-feedback {
         p {
-            font-size: 15px;
+            font-size: 16px;
         }
         .bar {
             height: 30px;
@@ -7146,7 +7188,7 @@ Introduction CSS
         .cta-btn-box {
             .btn-primary {
                 padding: 12px 25px;
-                font-size: 15px;
+                font-size: 16px;
             }
         }
     }
@@ -7310,7 +7352,7 @@ Introduction CSS
         .accordion {
             .accordion__item {
                 .accordion__button {
-                    font-size: 15px;
+                    font-size: 16px;
                 }
             }
         }
@@ -7597,7 +7639,7 @@ Introduction CSS
 
         .main-banner-content {
             p {
-                font-size: 15px;
+                font-size: 16px;
             }
             .btn-primary {
                 font-size: 14px;
@@ -8094,7 +8136,7 @@ Introduction CSS
 
             .custom-btn {
                 padding: 15px 30px;
-                font-size: 15px;
+                font-size: 16px;
             }
         }
     }
@@ -8142,7 +8184,7 @@ Introduction CSS
         margin-top: 0;
 
         span {
-            font-size: 15px;
+            font-size: 16px;
         }
         h1 {
             font-size: 36px;
@@ -8508,7 +8550,7 @@ Introduction CSS
             font-size: 27px;
         }
         p {
-            font-size: 15px;
+            font-size: 16px;
         }
     }
 
@@ -8886,7 +8928,7 @@ Introduction CSS
 
             .custom-btn {
                 padding: 15px 30px;
-                font-size: 15px;
+                font-size: 16px;
             }
         }
     }
@@ -9025,7 +9067,7 @@ Introduction CSS
                     padding-left: 10px;
                     padding-right: 10px;
                     a {
-                        font-size: 15px;
+                        font-size: 16px;
                     }
                 }
             }
@@ -9037,7 +9079,7 @@ Introduction CSS
                         padding-left: 10px;
                         padding-right: 10px;
                         a {
-                            font-size: 15px;
+                            font-size: 16px;
                         }
                     }
                 }
@@ -9078,7 +9120,7 @@ Introduction CSS
     }
     .main-banner-content {
         span {
-            font-size: 15px;
+            font-size: 16px;
         }
         h1 {
             font-size: 40px;
@@ -9112,7 +9154,7 @@ Introduction CSS
         .tabs {
             li {
                 a {
-                    font-size: 15px;
+                    font-size: 16px;
                 }
             }
         }
@@ -9263,7 +9305,7 @@ Introduction CSS
         ul {
             li {
                 span {
-                    font-size: 15px;
+                    font-size: 16px;
                 }
             }
         }
@@ -9331,7 +9373,7 @@ Introduction CSS
         ul {
             li {
                 span {
-                    font-size: 15px;
+                    font-size: 16px;
                 }
             }
         }
@@ -9349,7 +9391,7 @@ Introduction CSS
         ul {
             li {
                 span {
-                    font-size: 15px;
+                    font-size: 16px;
                 }
             }
         }
@@ -9410,7 +9452,7 @@ Introduction CSS
     }
 
     p {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .service-card-one.bg-fcfbfb {
@@ -9655,6 +9697,13 @@ Introduction CSS
     }
 }
 
+/* Min width 1400px */
+@media only screen and (min-width: 1400px) {
+   .container {
+     max-width: 1380px !important;
+   }
+}
+
 /* Min width 1800px */
 @media only screen and (min-width: 1800px) {
     .main-banner {
@@ -9693,5 +9742,9 @@ Introduction CSS
 
     .about-us-container-text {
         width: 100% !important;
+    }
+
+    .how-it-works-image {
+        display: none;
     }
 }

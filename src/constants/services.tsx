@@ -131,3 +131,48 @@ export const servicesData2 = [
         aosDelay: '200'
     }
 ];
+
+export const bimModelCardsData = [
+    {
+        image: '/images/services/bim-model/card-1.png',
+        title: 'Coordenação BIM',
+        shortText:
+            'Integra e alinha todos os modelos e informações de diferentes disciplinas em um único modelo central, permitindo a detecção antecipada de conflitos e garantindo a sincronia entre todas as partes envolvidas no projeto.',
+        aosDelay: '100'
+    },
+    {
+        image: '/images/services/bim-model/card-2.png',
+        title: 'Implementação BIM',
+        shortText:
+            'Introduz e integra a metodologia BIM nas operações da empresa, incluindo a aquisição de software adequado, treinamento de equipe e redefinição de processos para incorporar práticas BIM, aumentando a eficiência, precisão e colaboração.',
+        aosDelay: '200'
+    },
+    {
+        image: '/images/services/bim-model/card-3.png',
+        title: 'BIM 4D',
+        shortText:
+            'Integra o modelo 3D com o cronograma do projeto, permitindo a visualização do progresso da construção ao longo do tempo.',
+        aosDelay: '300'
+    },
+    {
+        image: '/images/services/bim-model/card-4.png',
+        title: 'BIM 5D',
+        shortText:
+            'Acrescenta uma dimensão adicional ao incorporar dados de custos ao modelo. Essas integrações permitem uma análise mais precisa de tempo e orçamento, facilitando o planejamento, controle e tomada de decisões durante o projeto.',
+        aosDelay: '100'
+    },
+    {
+        image: '/images/services/bim-model/card-3.png',
+        title: 'Modelagem Orientada a Operação e Manutenção',
+        shortText:
+            'Cria modelos BIM detalhados focados nas fases de operação e manutenção do ciclo de vida do edifício. Esses modelos fornecem informações essenciais para a gestão contínua do ativo, ajudando na manutenção preventiva e corretiva, e garantindo que os dados estejam sempre atualizados e acessíveis.',
+        aosDelay: '200'
+    },
+    {
+        image: '/images/services/bim-model/card-4.png',
+        title: 'Compatibilização',
+        shortText:
+            'Processo de verificar a coerência e a compatibilidade entre os diferentes modelos de disciplinas variadas, como arquitetura, estrutura e instalações. Esse processo garante que todos os componentes do projeto funcionem juntos sem conflitos, evitando problemas durante a construção e resultando em um projeto mais coeso e eficiente.',
+        aosDelay: '300'
+    }
+];

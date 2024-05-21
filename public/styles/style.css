@@ -48,7 +48,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--font-inter);
-  font-size: 15px;
+  font-size: 16px;
   color: #646464;
 }
 
@@ -77,7 +77,7 @@ h6 {
 
 p {
   line-height: 1.8;
-  font-size: 15px;
+  font-size: 16px;
   color: #646464;
   margin-bottom: 15px;
 }
@@ -342,7 +342,7 @@ a:hover, a:focus {
   padding: 13px 30px;
   display: inline-block;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 16px;
   transition: all 0.5s ease;
 }
 .default-btn-two:hover, .default-btn-two:focus {
@@ -485,7 +485,7 @@ Navbar CSS
   width: 60%;
 }
 .navbar-area nav .navbar-nav .nav-item a i {
-  font-size: 15px;
+  font-size: 16px;
   position: relative;
   top: 1px;
   display: inline-block;
@@ -906,6 +906,35 @@ Main Banner CSS
 }
 .hero-banner .animate-banner-image {
   margin-top: 50px;
+}
+
+.hero-banner-2 {
+  position: relative;
+  background: url("/images/tecnology/bim/bim.webp");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-banner-2.overly::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.822) 75%, rgba(255, 255, 255, 0.781) 100%);
+  z-index: 1; /* Ensures the overlay is above the background image */
+}
+.hero-banner-2.overly .container {
+  position: relative;
+  z-index: 2; /* Ensures the content is above the overlay */
+  padding-bottom: 150px;
+}
+.hero-banner-2.overly .container div h2 {
+  color: #ffffff;
+}
+.hero-banner-2.overly .container div p {
+  color: #ffffff;
 }
 
 #particles-js canvas {
@@ -2254,7 +2283,7 @@ Services CSS
   position: relative;
   box-shadow: 0px 2px 4px 0px rgba(12, 0, 46, 0.04);
   font-weight: 600;
-  font-size: 15px;
+  font-size: 16px;
   border: 1px solid #f2effc;
   cursor: pointer;
   transition: all 0.5s ease;
@@ -2672,7 +2701,7 @@ Team CSS
   width: 35px;
   height: 35px;
   line-height: 35px;
-  font-size: 15px;
+  font-size: 16px;
   color: #ffffff;
   border: 1px solid #ffffff;
   position: relative;
@@ -2739,7 +2768,7 @@ Team CSS
 }
 .team-card .team-caption p {
   margin: 0;
-  font-size: 15px;
+  font-size: 16px;
 }
 .team-card .team-caption ul {
   list-style-type: none;
@@ -4147,7 +4176,7 @@ blockquote cite::before {
   margin-bottom: 1em;
 }
 .comments-area .comment-author {
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 0.4em;
   position: relative;
   z-index: 2;
@@ -4194,11 +4223,11 @@ blockquote cite::before {
   font-weight: 700;
 }
 .comments-area .comment-respond .comment-reply-title #cancel-comment-reply-link {
-  font-size: 15px;
+  font-size: 16px;
   display: inline-block;
 }
 .comments-area .comment-respond .comment-notes {
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 0;
   margin-top: 10px;
 }
@@ -5046,7 +5075,7 @@ Portfolio Details CSS
 .service-details-info .single-info-box span {
   display: block;
   color: #646464;
-  font-size: 15px;
+  font-size: 16px;
 }
 .service-details-info .single-info-box .social {
   padding-left: 0;
@@ -5360,7 +5389,7 @@ Footer CSS
 }
 .copyright-area p {
   color: #ffffff;
-  font-size: 15px;
+  font-size: 16px;
 }
 .copyright-area p a {
   display: inline-block;
@@ -5522,7 +5551,7 @@ span.new {
   border-radius: 4px;
   padding: 0 0 0 20px;
   color: #000;
-  font-size: 15px;
+  font-size: 16px;
   transition: all 0.5s ease;
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.08);
@@ -5616,10 +5645,10 @@ Introduction CSS
 /* Max width 767px */
 @media only screen and (max-width: 767px) {
   body {
-    font-size: 15px;
+    font-size: 16px;
   }
   p {
-    font-size: 15px;
+    font-size: 16px;
   }
   .btn {
     padding: 10px 20px;
@@ -5792,7 +5821,7 @@ Introduction CSS
   }
   .hero-banner .main-banner-content p {
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 16px;
   }
   .hero-banner .main-banner-content .btn-primary,
   .hero-banner .main-banner-content .btn-secondary {
@@ -5954,7 +5983,7 @@ Introduction CSS
     margin-bottom: 12px;
   }
   .single-feedback p {
-    font-size: 15px;
+    font-size: 16px;
   }
   .single-feedback .bar {
     height: 30px;
@@ -5963,7 +5992,7 @@ Introduction CSS
     font-size: 16px;
   }
   .single-feedback span {
-    font-size: 15px;
+    font-size: 16px;
   }
   .client-image-box img {
     display: none;
@@ -6017,7 +6046,7 @@ Introduction CSS
     font-size: 19px;
   }
   .single-team .team-content span {
-    font-size: 15px;
+    font-size: 16px;
   }
   .team-slides {
     margin-bottom: 30px;
@@ -6142,7 +6171,7 @@ Introduction CSS
   }
   .cta-content .cta-btn-box .btn-primary {
     padding: 12px 25px;
-    font-size: 15px;
+    font-size: 16px;
   }
   .cta-btn-box {
     text-align: center;
@@ -6258,7 +6287,7 @@ Introduction CSS
     font-size: 13px;
   }
   .faq-accordion .accordion .accordion__item .accordion__button {
-    font-size: 15px;
+    font-size: 16px;
   }
   .contact-form .contact-title h2 {
     font-size: 26px;
@@ -6479,7 +6508,7 @@ Introduction CSS
     display: none;
   }
   .hero-slider .main-banner-content p {
-    font-size: 15px;
+    font-size: 16px;
   }
   .hero-slider .main-banner-content .btn-primary {
     font-size: 14px;
@@ -6824,7 +6853,7 @@ Introduction CSS
   }
   .cta-area-two .cta-btn-box .custom-btn {
     padding: 15px 30px;
-    font-size: 15px;
+    font-size: 16px;
   }
   .main-banner {
     height: 100%;
@@ -6858,7 +6887,7 @@ Introduction CSS
     margin-top: 0;
   }
   .main-banner-content span {
-    font-size: 15px;
+    font-size: 16px;
   }
   .main-banner-content h1 {
     font-size: 36px;
@@ -7113,7 +7142,7 @@ Introduction CSS
     font-size: 27px;
   }
   .cta-content p {
-    font-size: 15px;
+    font-size: 16px;
   }
   .single-blog-post {
     margin-bottom: 30px !important;
@@ -7361,7 +7390,7 @@ Introduction CSS
   }
   .team-area .cta-btn-box .custom-btn {
     padding: 15px 30px;
-    font-size: 15px;
+    font-size: 16px;
   }
   .video-studio .video-box {
     margin-top: 50px;
@@ -7459,14 +7488,14 @@ Introduction CSS
     padding-right: 10px;
   }
   .navbar-area nav .navbar-nav .nav-item a {
-    font-size: 15px;
+    font-size: 16px;
   }
   .navbar-area.navbar-style-2 nav .navbar-nav .nav-item {
     padding-left: 10px;
     padding-right: 10px;
   }
   .navbar-area.navbar-style-2 nav .navbar-nav .nav-item a {
-    font-size: 15px;
+    font-size: 16px;
   }
   .navbar-area.navbar-style-two nav .navbar-nav {
     margin-left: 25px;
@@ -7489,7 +7518,7 @@ Introduction CSS
     display: inline-block;
   }
   .main-banner-content span {
-    font-size: 15px;
+    font-size: 16px;
   }
   .main-banner-content h1 {
     font-size: 40px;
@@ -7511,7 +7540,7 @@ Introduction CSS
     font-size: 40px;
   }
   .tab .tabs li a {
-    font-size: 15px;
+    font-size: 16px;
   }
   .single-case-studies .content h3 {
     font-size: 22px;
@@ -7603,7 +7632,7 @@ Introduction CSS
     font-size: 22px;
   }
   .case-studies-information ul li span {
-    font-size: 15px;
+    font-size: 16px;
   }
   .pricing-table .pricing-header h3 {
     font-size: 18px;
@@ -7633,7 +7662,7 @@ Introduction CSS
     font-size: 22px;
   }
   .portfolio-information ul li span {
-    font-size: 15px;
+    font-size: 16px;
   }
   .services-details-desc h3 {
     font-size: 22px;
@@ -7642,7 +7671,7 @@ Introduction CSS
     font-size: 22px;
   }
   .services-details-info ul li span {
-    font-size: 15px;
+    font-size: 16px;
   }
   .single-footer-widget h3 {
     font-size: 20px;
@@ -7678,7 +7707,7 @@ Introduction CSS
     font-size: 30px;
   }
   p {
-    font-size: 15px;
+    font-size: 16px;
   }
   .service-card-one.bg-fcfbfb {
     padding: 30px 25px;
@@ -7819,6 +7848,12 @@ Introduction CSS
     padding-left: 130px;
   }
 }
+/* Min width 1400px */
+@media only screen and (min-width: 1400px) {
+  .container {
+    max-width: 1380px !important;
+  }
+}
 /* Min width 1800px */
 @media only screen and (min-width: 1800px) {
   .main-banner {
@@ -7848,6 +7883,9 @@ Introduction CSS
   }
   .about-us-container-text {
     width: 100% !important;
+  }
+  .how-it-works-image {
+    display: none;
   }
 }
 

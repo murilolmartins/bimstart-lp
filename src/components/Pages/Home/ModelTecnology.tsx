@@ -12,7 +12,7 @@ const ModelTenology: React.FC = () => {
             <div className="ptb-100 bg-fcfbfb">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-7 col-md-12">
+                        <div className="col-lg-8 col-md-12">
                             <div className="bc-what-we-do-content">
                                 <div
                                     className="section-title"
@@ -23,7 +23,7 @@ const ModelTenology: React.FC = () => {
                                     <h2 className='mb-5'>Tenologia de Modelgem</h2>
                                     <p
                                         style={{
-                                            maxWidth: '640px'
+                                            maxWidth: '680px'
                                         }}
                                     >
                                         O BS Modeler é um conjunto de
@@ -47,7 +47,7 @@ const ModelTenology: React.FC = () => {
                                     <div className="col-lg-6 col-md-6 col-sm-6">
                                         <Image
                                             src={bsmlogosmall}
-                                            alt="image"
+                                            alt="BS Modeler Logo"
                                             width={500}
                                             height={300}
                                         />
@@ -56,16 +56,16 @@ const ModelTenology: React.FC = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-5 col-md-12">
+                        <div className="col-lg-4 col-md-12">
                             <div
-                                className="bc-what-we-do-image"
+                                className="bc-what-we-do-image how-it-works-image"
                                 data-aos="fade-in"
                                 data-aos-duration="1000"
                                 data-aos-delay="400"
                             >
                                 <Image
                                     src={bsmlogo}
-                                    alt="image"
+                                    alt="BS Modeler Logo 2"
                                     width={500}
                                     height={200}
                                 />

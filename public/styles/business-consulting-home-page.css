@@ -201,7 +201,7 @@
 }
 .bc-services-item .hover-content p {
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
 }
 .bc-services-item .hover-content .link-btn {
   font-weight: 700;
@@ -560,7 +560,7 @@
   margin-right: 15px;
   position: relative;
   padding-left: 22px;
-  font-size: 15px;
+  font-size: 16px;
 }
 .bc-post-item .post-content .meta li i {
   position: absolute;
@@ -588,7 +588,7 @@
   display: inline-block;
   padding-right: 12px;
   color: #000;
-  font-size: 15px;
+  font-size: 16px;
 }
 .bc-post-item .post-content .link-btn i {
   position: absolute;
@@ -705,7 +705,7 @@
     font-size: 35px;
   }
   .bc-features-item h3 {
-    font-size: 15px;
+    font-size: 16px;
   }
   .bc-what-we-do-content .bc-what-we-do-box {
     margin-bottom: 30px;

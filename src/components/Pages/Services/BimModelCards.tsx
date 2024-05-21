@@ -2,20 +2,18 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { bsModelerCardsData } from '@/constants/tecnology';
-import useWidth from '@/hooks/useWidth';
+import { bimModelCardsData } from '@/constants/services';
 
-const BsModelerCards: React.FC = () => {
-    const { width, breakpoints } = useWidth();
+const BIMModelCards: React.FC = () => {
     return (
         <>
             <div className="pt-100 pb-70">
                 <div className="container">
                     <div className="row justify-content-center">
-                        {bsModelerCardsData &&
-                            bsModelerCardsData.map((value, i) => (
+                        {bimModelCardsData &&
+                            bimModelCardsData.map((value) => (
                                 <div
-                                    className="col-lg-3 col-sm-6"
+                                    className="col-lg-4 col-sm-6"
                                     key={value.title}
                                     data-aos="fade-in"
                                     data-aos-duration="1000"
@@ -24,10 +22,7 @@ const BsModelerCards: React.FC = () => {
                                     <div
                                         className="service-card-one bg-fcfbfb text-center bg-white d-flex flex-column pt-5"
                                         style={{
-                                            minHeight:
-                                                (width > Number(breakpoints.xxl) || width < Number(breakpoints.lg))
-                                                    ? '540px'
-                                                    : '590px'
+                                            minHeight: '615px'
                                         }}
                                     >
                                         <div
@@ -49,7 +44,7 @@ const BsModelerCards: React.FC = () => {
                                         <h3
                                             className="mt-5 border-bottom pb-3"
                                             style={{
-                                                minHeight: '90px'
+                                                minHeight: '70px'
                                             }}
                                         >
                                             {value.title}
@@ -65,4 +60,4 @@ const BsModelerCards: React.FC = () => {
     );
 };
 
-export default BsModelerCards;
+export default BIMModelCards;

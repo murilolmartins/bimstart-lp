@@ -4,10 +4,10 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { howItWorksData } from '@/constants/home';
-
-
+import useWidth from '@/hooks/useWidth';
 
 const HowItWorks: React.FC = () => {
+    const { width } = useWidth();
     return (
         <>
             <div className="pt-100 pb-70 bg-fcfbfb">
@@ -15,7 +15,7 @@ const HowItWorks: React.FC = () => {
                     <div className="section-title">
                         <h2>Como Funciona?</h2>
                     </div>
-                   
+
                     <div className="row justify-content-center">
                         {howItWorksData &&
                             howItWorksData.slice(0, 6).map((value, i) => (
@@ -26,7 +26,12 @@ const HowItWorks: React.FC = () => {
                                     data-aos-duration="1000"
                                     data-aos-delay={value.aosDelay}
                                 >
-                                    <div className="service-card-one bg-fcfbfb text-center bg-white">
+                                    <div
+                                        className="service-card-one bg-fcfbfb text-center bg-white"
+                                        style={{
+                                            minHeight: width >= 1200 ? '650px' : '580px'
+                                        }}
+                                    >
                                         <Image
                                             src={value.image}
                                             alt="image"
