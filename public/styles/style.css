@@ -2422,7 +2422,7 @@ Feedback CSS
   margin-bottom: 30px;
 }
 .feedback-list .feedback-image .feedback-image-container {
-  width: 120px;
+  width: 140px;
   position: relative;
 }
 .feedback-list .quotes-icon {
@@ -7833,7 +7833,7 @@ Introduction CSS
   }
 }
 /* Min width 1200px to Max width 1399px */
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .hero-banner .main-banner-content.left {
     padding-left: 80px;
   }

@@ -2,7 +2,6 @@ import React from 'react';
 import PageBanner from '../../components/Common/PageBanner';
 import Equipments from '@/components/Pages/Tecnology/Equipments';
 import { Metadata } from 'next';
-import TecnologySection from '@/components/Pages/Tecnology/TecnologySection';
 import {
     ai,
     bsmodeler,
@@ -13,6 +12,7 @@ import {
 import BsModelerCards from '@/components/Pages/Tecnology/BSModelerCards';
 import GIS from '@/components/Pages/Tecnology/GIS';
 import BIM from '@/components/Pages/Tecnology/BIM';
+import DescriptionSection from '@/components/Common/DescriptionSection';
 
 export const metadata: Metadata = {
     title: 'BIM START - Tecnologia'
@@ -26,21 +26,21 @@ export default function Page() {
                 BGImage="/images/tecnology/banner.webp"
             />
 
-            <TecnologySection {...realityCapture} invert />
+            <DescriptionSection {...realityCapture} invert />
 
             <BIM />
 
-            <TecnologySection {...bsmodeler} />
+            <DescriptionSection {...bsmodeler} />
 
             <BsModelerCards />
 
-            <TecnologySection {...computerVision} invert />
+            <DescriptionSection {...computerVision} invert />
 
             <GIS />
 
-            <TecnologySection {...cloudBased} invert />
+            <DescriptionSection {...cloudBased} invert />
 
-            <TecnologySection {...ai} black />
+            <DescriptionSection {...ai} blackBg />
 
             <Equipments />
         </>

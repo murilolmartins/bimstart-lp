@@ -3,7 +3,7 @@
 import React from 'react';
 import Image, { StaticImageData } from 'next/image';
 
-interface TecnologySectionProps {
+interface DescriptionSectionProps {
     title: string;
     description: React.ReactNode;
     img: {
@@ -11,24 +11,24 @@ interface TecnologySectionProps {
         alt: string;
     };
     invert?: boolean;
-    black?: boolean;
-    gray?: boolean;
+    blackBg?: boolean;
+    grayTitle?: boolean;
 }
 
-const TecnologySection: React.FC<TecnologySectionProps> = ({
+const DescriptionSection: React.FC<DescriptionSectionProps> = ({
     title,
     description,
     img,
     invert = false,
-    black = false,
-    gray = false
-}: TecnologySectionProps) => {
+    blackBg = false,
+    grayTitle = false
+}: DescriptionSectionProps) => {
     return (
         <>
             <div
-                className={`ptb-100  ${gray ? 'bg-fcfbfb' : ''}`}
+                className={`ptb-100`}
                 style={{
-                    backgroundColor: black ? '#0D0D0D' : '',
+                    backgroundColor: blackBg ? '#0D0D0D' : ''
                 }}
             >
                 <div className="container">
@@ -37,7 +37,20 @@ const TecnologySection: React.FC<TecnologySectionProps> = ({
                             invert ? 'flex-row-reverse' : ''
                         }`}
                     >
-                        <div className="col-lg-6 col-md-12">
+                        <div
+                            className="col-lg-6 col-md-12"
+                            style={
+                                invert
+                                    ? {
+                                          paddingLeft: '50px',
+                                          paddingRight: '0'
+                                      }
+                                    : {
+                                          paddingRight: '50px',
+                                          paddingLeft: '0'
+                                      }
+                            }
+                        >
                             <div className="bc-what-we-do-content">
                                 <div
                                     className="section-title"
@@ -48,7 +61,11 @@ const TecnologySection: React.FC<TecnologySectionProps> = ({
                                     <h2
                                         className="mb-5"
                                         style={{
-                                            color: black ? '#fff' : 'initial'
+                                            color: blackBg
+                                                ? '#fff'
+                                                : grayTitle
+                                                ? '#808080'
+                                                : 'initial'
                                         }}
                                     >
                                         {title}
@@ -57,7 +74,7 @@ const TecnologySection: React.FC<TecnologySectionProps> = ({
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-5 col-md-12">
+                        <div className="col-lg-6 col-md-12">
                             <div
                                 className="bc-what-we-do-image"
                                 data-aos="fade-in"
@@ -81,4 +98,4 @@ const TecnologySection: React.FC<TecnologySectionProps> = ({
     );
 };
 
-export default TecnologySection;
+export default DescriptionSection;

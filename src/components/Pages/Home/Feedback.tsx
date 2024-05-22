@@ -5,7 +5,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import Image from 'next/image';
 
-import leftQuote from '../../../../public/images/home/feedback/quote.svg';
 import { feedbacskData } from '@/constants/home';
 
 const Feedback: React.FC = () => {
@@ -37,20 +36,9 @@ const Feedback: React.FC = () => {
                                                 <Image
                                                     src={value.image}
                                                     alt="Customer Image"
-                                                    width={120}
-                                                    height={120}
-                                                    style={{
-                                                        borderRadius: '50%'
-                                                    }}
+                                                    width={140}
+                                                    height={140}
                                                 />
-                                                <div className="quotes-icon">
-                                                    <Image
-                                                        src={leftQuote}
-                                                        alt="Left Quote"
-                                                        width={20}
-                                                        height={20}
-                                                    />
-                                                </div>
                                             </div>
                                         </div>
                                         <div className="single-feedback">

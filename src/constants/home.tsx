@@ -1,7 +1,7 @@
-import { StaticImageData } from "next/image";
+import { StaticImageData } from 'next/image';
 
-import renanKallasImage from '../../public/images/home/feedback/renankallas.png';
-
+import kallasImage from '../../public/images/home/feedback/kallas.png';
+import crasaImage from '../../public/images/home/feedback/crasa.png';
 
 interface FeedbackItem {
     name: string;
@@ -16,7 +16,14 @@ export const feedbacskData: FeedbackItem[] = [
         designation: 'Coordenador de Inovação do Grupo Kallas',
         feedbacskText:
             'A BIM START não apenas oferece um serviço de captura de realidade com laser scan excepcional, mas também nos proporciona ferramentas poderosas para antecipar decisões com relatórios incríveis, incluindo verificações de interferências com o que ainda será construído. Desde 2019, sua metodologia de trabalho resultou em ganhos inestimáveis para os mais de 200.000 m2 escaneados. Sua contribuição é fundamental para o sucesso dos nossos projetos e a inovação do Grupo Kallas.',
-        image: renanKallasImage
+        image: kallasImage
+    },
+    {
+        name: 'Marcelino Braga',
+        designation: 'Head do Escritório de Gerenciamento de Projetos',
+        feedbacskText:
+            'Desde o início de sua jornada de transformação digital em Gerenciamento de Projetos, a CRASA Infraestrutura tem contado com a parceria especializada da BIMStart na elaboração de modelos BIM 3D para suportá-la na elaboração de seus modelos BIM 4D, além de apoiá-la no desenvolvimento e melhoria de seus processos a fim de possibilitar a ampliação dos usos do BIM na companhia.',
+        image: crasaImage
     }
 ];
 
