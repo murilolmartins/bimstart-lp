@@ -8,6 +8,7 @@ import AsBuilt from '@/components/Pages/Services/AsBuilt';
 import DescriptionSection from '@/components/Common/DescriptionSection';
 import { aerialSurvey, documentation, landscaping, topography3d } from '@/constants/services';
 import AeroExample from '@/components/Pages/Services/AeroExample';
+import BimModel from '@/components/Pages/Services/BimModel';
 
 export const metadata: Metadata = {
     title: 'BIM START - Serviços'
@@ -20,6 +21,8 @@ export default function Page() {
                 pageTitle="Serviços"
                 BGImage="/images/services/banner.webp"
             />
+
+            <BimModel />
 
             <BIMModelCards />
 
