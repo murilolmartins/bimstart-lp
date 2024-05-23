@@ -15,7 +15,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
     label,
     link,
     submenu,
-    disabled
+    disabled,
 }) => {
     const pathname = usePathname();
     if (submenu) {

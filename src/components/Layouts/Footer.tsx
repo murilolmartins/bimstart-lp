@@ -125,7 +125,7 @@ const Footer: React.FC = () => {
                                     </li>
                                     <li>
                                         <Link
-                                            href="/blog"
+                                            href="https://blog.bimstart.com.br/"
                                             className={
                                                 pathname.includes('blog')
                                                     ? 'footer-nav-item'

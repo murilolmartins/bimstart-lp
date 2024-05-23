@@ -1,7 +1,7 @@
 export const menus = [
     {
         label: 'Home',
-        link: '/'
+        link: '/',
     },
     {
         label: 'Sobre',
@@ -17,7 +17,7 @@ export const menus = [
     },
     {
         label: 'Blog',
-        link: '/blog/'
+        link: 'https://blog.bimstart.com.br/',
     },
     {
         label: 'Contato',
