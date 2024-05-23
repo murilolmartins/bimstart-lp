@@ -20,26 +20,38 @@ const ModelTenology: React.FC = () => {
                                     data-aos-duration="1000"
                                     data-aos-delay="100"
                                 >
-                                    <h2 className='mb-5'>Tecnologia de Modelgem</h2>
+                                    <h2 className="mb-5">
+                                        Tecnologia de Modelagem
+                                    </h2>
                                     <p
                                         style={{
                                             maxWidth: '680px'
                                         }}
                                     >
-                                        O BS Modeler é um conjunto de
-                                        automatizações em diversas etapas do
-                                        processo de captura de realidade, de
-                                        forma a torná-lo cada vez mais rápido.
+                                        O BS Modeler é uma ferramenta
+                                        proprietária da BIM START que
+                                        revoluciona a Captura de Realidade e a
+                                        modelagem BIM. Integrando tecnologias
+                                        avançadas como machine learning, visão
+                                        computacional e GIS, o BS Modeler
+                                        transforma dados coletados de scanners a
+                                        laser, drones e sensores em modelos 3D
+                                        altamente precisos e detalhados.
                                         <br />
                                         <br />
-                                        Gradualmente almeja-se unir a soma desse
-                                        array de automatizações em um SaaS capaz
-                                        de entregar o processo de ponta a ponta,
-                                        solução capaz de revolucionar como os
-                                        projetos de engenharia, acompanhamento
-                                        de obras, gerenciamento de propriedades,
-                                        e até mesmo de cidades, é feito hoje em
-                                        dia.
+                                        Com essa ferramenta, é possível detectar
+                                        interferências, extrair quantitativos,
+                                        integrar projetos com orçamento e
+                                        cronograma, além de realizar análises
+                                        avançadas. O BS Modeler assegura que os
+                                        projetos sejam eficientes, seguros e
+                                        econômicos, garantindo a qualidade e a
+                                        integridade dos modelos para nossos
+                                        clientes. Em essência, o BS Modeler é a
+                                        solução definitiva para converter dados
+                                        do mundo real em informações digitais
+                                        valiosas para o planejamento e execução
+                                        de projetos complexos.
                                     </p>
                                 </div>
 

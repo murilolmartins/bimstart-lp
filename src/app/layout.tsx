@@ -9,10 +9,10 @@ import 'swiper/css';
 import 'swiper/css/bundle';
 import 'react-toastify/dist/ReactToastify.css';
 
-// App Showcase Home Style
+// App Home Style
 import '../../public/styles/app-home-page.css';
-// Business Consulting Home Page Style
-import '../../public/styles/business-consulting-home-page.css';
+// Business Info Style
+import '../../public/styles/business-info.css';
 // About Page Style
 import '../../public/styles/about-page.css';
 // Tecnology Page Style

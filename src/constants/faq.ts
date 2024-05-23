@@ -7,7 +7,7 @@ export const faqData = [
     {
         title: '2. Quais são os equipamentos e tecnologias utilizados na captura de realidade?',
         description:
-            'Os equipamentos e tecnologias utilizadas na captura de realidade incluem laserscanners terrestres e aéreos, drones equipados com cameras de alta resoluçaõ e sensores, estações totais, sitemas de posicionamento global (GNSS) e softwares especializados para processamento de dados em nuvem de pontos e modelagem 3D.'
+            'Os equipamentos e tecnologias utilizados na captura de realidade incluem laser scanners terrestres e aéreos, drones equipados com câmeras de alta resolução e sensores, estações totais, sistemas de posicionamento global (GNSS) e softwares especializados para processamento de dados de nuvem de pontos e modelagem 3D.'
     },
     {
         title: '3. Quais são os princiapais beneficios e aplicações da captura de realidade na engenharia e construção?',

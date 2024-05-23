@@ -9,7 +9,6 @@ export const servicesData1 = [
         title: 'CONSTRUÇÃO CIVIL',
         shortText:
             'A captura de realidade é usada para criar modelos 3D detalhados de locais de construção, permitindo um planejamento preciso e a detecção de conflitos antes da construção.',
-        viewDetails: '/services/service-details/',
         aosDelay: '100'
     },
     {
@@ -17,7 +16,7 @@ export const servicesData1 = [
         title: 'INDÚSTRIA',
         shortText:
             'Auxilia no monitoramento de máquinas e processos, melhorando a eficiência operacional e a manutenção preventiva.',
-        viewDetails: '/services/service-details/',
+
         aosDelay: '200'
     },
     {
@@ -25,7 +24,6 @@ export const servicesData1 = [
         title: 'ÁGUA E SANEAMENTO',
         shortText:
             'É essencial para mapear redes de distribuição e infraestruturas, permitindo uma gestão mais eficiente e a detecção de vazamentos e falhas.',
-        viewDetails: '/services/service-details/',
         aosDelay: '300'
     },
     {
@@ -33,15 +31,13 @@ export const servicesData1 = [
         title: 'TOPOGRAFIA',
         shortText:
             'Facilita o levantamento preciso de terrenos e mapeamento, economizando tempo e recursos.',
-        viewDetails: '/services/service-details/',
         aosDelay: '100'
     },
     {
         image: '/images/home/services/card-5.png',
-        title: 'ARQUITETURA E REPAROS',
+        title: 'ARQUITETURA E RESTAURO',
         shortText:
             'Ajuda na preservação e restauração de edifícios históricos, fornecendo modelos digitais para guiar o trabalho de restauração.',
-        viewDetails: '/services/service-details/',
         aosDelay: '200'
     },
     {
@@ -49,7 +45,6 @@ export const servicesData1 = [
         title: 'AGRONEGÓCIO',
         shortText:
             'Permite o monitoramento de colheitas, o planejamento agrícola e a gestão de recursos, melhorando a produtividade.',
-        viewDetails: '/services/service-details/',
         aosDelay: '300'
     },
     {
@@ -57,7 +52,6 @@ export const servicesData1 = [
         title: 'MINERAÇÃO',
         shortText:
             'Auxilia no planejamento de minas, otimizando a extração e garantindo a segurança dos trabalhadores.',
-        viewDetails: '/services/service-details/',
         aosDelay: '100'
     },
     {
@@ -65,7 +59,6 @@ export const servicesData1 = [
         title: 'INFRAESTRUTURA',
         shortText:
             'É fundamental para o planejamento e manutenção de estradas, pontes e outras infraestruturas, garantindo a segurança e eficiência das operações.',
-        viewDetails: '/services/service-details/',
         aosDelay: '200'
     }
 ];
@@ -76,7 +69,7 @@ export const servicesData2 = [
         title: 'TOPOGRAFIA 3D E BIM',
         shortText:
             'Projetos topográficos da BIM START, baseados em captura de realidade, oferecem desde topografia convencional até modelagem 3D inteligente para atender demandas simples e complexas.',
-        viewDetails: '/services/service-details/',
+
         aosDelay: '100'
     },
     {
@@ -84,7 +77,7 @@ export const servicesData2 = [
         title: 'PROJETOS DE TERRAPLENAGEM',
         shortText:
             'Projeto visa o planejamento da movimentação de terra, identificando volumes, taludes, empréstimos e bota-foras, com avaliação precisa da topografia por meio de captura de realidade.',
-        viewDetails: '/services/service-details/',
+
         aosDelay: '200'
     },
     {
@@ -92,7 +85,6 @@ export const servicesData2 = [
         title: 'MODELAGEM BIM',
         shortText:
             'Modelagem BIM realizada a partir de projetos CAD ou nuvens de pontos, com equipe experiente e vasta biblioteca de componentes para garantir qualidade dos modelos.',
-        viewDetails: '/services/service-details/',
         aosDelay: '300'
     },
     {
@@ -100,7 +92,6 @@ export const servicesData2 = [
         title: 'AS BUILT e AS IS',
         shortText:
             'Projetos As Built registram a construção e Projetos As Is avaliam a condição atual do objeto de estudo, priorizando precisão e conformidade.',
-        viewDetails: '/services/service-details/',
         aosDelay: '100'
     },
     {
@@ -108,7 +99,6 @@ export const servicesData2 = [
         title: 'DETALHAMENTO E DOCUMENTAÇÃO 2D',
         shortText:
             'Na BIM START, adaptamos ao workflow do cliente, entregando arquivos 2D convencionais mesmo trabalhando essencialmente em 3D, sem exigir investimentos adicionais do contratante.',
-        viewDetails: '/services/service-details/',
         aosDelay: '200'
     },
     {
@@ -116,7 +106,6 @@ export const servicesData2 = [
         title: 'AEROLEVANTAMENTO',
         shortText:
             'Aerolevantamento realizado com veículos aéreos não tripulados de última geração, com equipe de profissionais especializados para dar suporte ao cliente.',
-        viewDetails: '/services/service-details/',
         aosDelay: '300'
     },
     {
@@ -124,15 +113,13 @@ export const servicesData2 = [
         title: 'LEVANTAMENTO BATIMÉTRICO NÃO TRIPULADO',
         shortText:
             'Levantamentos batimétricos convencionais substituídos por USV’s, aumentando produtividade, reduzindo custos e garantindo segurança da equipe.',
-        viewDetails: '/services/service-details/',
         aosDelay: '100'
     },
     {
         image: '/images/home/services-2/card-8.png',
-        title: 'INFRAESTRUTURA',
+        title: 'COORDENAÇÃO BIM',
         shortText:
-            'É fundamental para o planejamento e manutenção de estradas, pontes e outras infraestruturas, garantindo a segurança e eficiência das operações.',
-        viewDetails: '/services/service-details/',
+            'Integração e alinhamento de modelos de diferentes disciplinas em um modelo central, detectando conflitos e garantindo sincronia entre todas as partes do projeto.',
         aosDelay: '200'
     }
 ];

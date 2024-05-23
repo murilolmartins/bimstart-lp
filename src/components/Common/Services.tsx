@@ -5,7 +5,6 @@ interface ServicesProps {
         image: string;
         title: string;
         shortText: string;
-        viewDetails: string;
         aosDelay: string;
     }[];
     title: string;
