@@ -8,6 +8,7 @@ import { usePathname } from 'next/navigation';
 const Footer: React.FC = () => {
     const pathname = usePathname();
     const currentYear = new Date().getFullYear();
+
     return (
         <>
             <footer className="footer-area">

@@ -8,8 +8,8 @@ interface Metric {
 export const metricsData: Metric[] = [
     {
         iconName: 'fa-solid fa-circle-check',
-        number: '5 anos',
-        shortText: 'Em operação',
+        number: '5 anos+',
+        shortText: 'de Operação',
         aosDelay: '100'
     },
     {
@@ -20,14 +20,8 @@ export const metricsData: Metric[] = [
     },
     {
         iconName: 'fa-solid fa-list-check',
-        number: '100k+',
+        number: '1 Bilhão+',
         shortText: 'M² Levantados',
         aosDelay: '300'
-    },
-    {
-        iconName: 'fa-solid fa-trophy',
-        number: '1.2m+',
-        shortText: 'Seguidores',
-        aosDelay: '400'
     }
 ];

@@ -394,6 +394,7 @@ a {
         margin-bottom: 15px;
         font: {
             size: 50px;
+            weight: 600;
         }
     }
     p {
@@ -6015,7 +6016,11 @@ Footer CSS
         width: 10px !important;
         height: 2px !important;
         transition: all 0.5s ease !important;
+        opacity: 1 !important;
+        visibility: visible !important;
     }
+    color: $main-color !important;
+    padding-left: 15px !important;
 }
 .single-footer-widget {
     .logo {
@@ -6133,6 +6138,7 @@ Footer CSS
                     &:focus {
                         color: $main-color;
                         padding-left: 15px;
+                        cursor: pointer !important;
 
                         &::before {
                             opacity: 1;
@@ -9699,9 +9705,9 @@ Introduction CSS
 
 /* Min width 1400px */
 @media only screen and (min-width: 1400px) {
-   .container {
-     max-width: 1380px !important;
-   }
+    .container {
+        max-width: 1380px !important;
+    }
 }
 
 /* Min width 1800px */
@@ -9746,5 +9752,17 @@ Introduction CSS
 
     .how-it-works-image {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .invert-section-left {
+        padding-left: 50px;
+        padding-right: 0;
+    }
+
+    .invert-section-right {
+        padding-right: 50px;
+        padding-left: 0;
     }
 }

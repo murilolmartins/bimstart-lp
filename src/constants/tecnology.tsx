@@ -186,15 +186,15 @@ export const equipmentsData = [
         shortText:
             'Utilizando tecnologia de ponta, o scanner Leica RTC 360 oferece precisão excepcional na captura de dados em 3D, essencial para projetos de alta qualidade.',
         aosDelay: '100',
-        size: 400
+        size: 370
     },
     {
         image: '/images/tecnology/equipments/card-2.png',
-        title: 'Estação Total Leica FlexLine TS06',
+        title: 'Estação Total Leica TS13',
         shortText:
             'Equipamento indispensável em levantamentos topográficos, a estação total garante a precisão necessária para mapeamentos detalhados e confiáveis.',
         aosDelay: '200',
-        size: 370
+        size: 380
     },
     {
         image: '/images/tecnology/equipments/card-3.png',

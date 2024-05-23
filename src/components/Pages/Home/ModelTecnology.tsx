@@ -20,7 +20,7 @@ const ModelTenology: React.FC = () => {
                                     data-aos-duration="1000"
                                     data-aos-delay="100"
                                 >
-                                    <h2 className='mb-5'>Tenologia de Modelgem</h2>
+                                    <h2 className='mb-5'>Tecnologia de Modelgem</h2>
                                     <p
                                         style={{
                                             maxWidth: '680px'

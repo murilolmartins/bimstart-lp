@@ -38,18 +38,11 @@ const DescriptionSection: React.FC<DescriptionSectionProps> = ({
                         }`}
                     >
                         <div
-                            className="col-lg-6 col-md-12"
-                            style={
+                            className={`col-lg-6 col-md-12 ${
                                 invert
-                                    ? {
-                                          paddingLeft: '50px',
-                                          paddingRight: '0'
-                                      }
-                                    : {
-                                          paddingRight: '50px',
-                                          paddingLeft: '0'
-                                      }
-                            }
+                                    ? 'invert-section-left'
+                                    : 'invert-section-right'
+                            }`}
                         >
                             <div className="bc-what-we-do-content">
                                 <div

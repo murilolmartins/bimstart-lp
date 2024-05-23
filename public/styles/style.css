@@ -360,6 +360,7 @@ a:hover, a:focus {
 .section-title h2 {
   margin-bottom: 15px;
   font-size: 50px;
+  font-weight: 600;
 }
 .section-title p {
   margin-bottom: 0;
@@ -5218,6 +5219,10 @@ Footer CSS
   z-index: 1;
 }
 
+.footer-nav-item {
+  color: #519b00 !important;
+  padding-left: 15px !important;
+}
 .footer-nav-item::before {
   content: "" !important;
   position: absolute !important;
@@ -5228,6 +5233,8 @@ Footer CSS
   width: 10px !important;
   height: 2px !important;
   transition: all 0.5s ease !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 .single-footer-widget .logo {
@@ -5336,6 +5343,7 @@ Footer CSS
 .single-footer-widget ul.list li a:hover, .single-footer-widget ul.list li a:focus {
   color: #519b00;
   padding-left: 15px;
+  cursor: pointer !important;
 }
 .single-footer-widget ul.list li a:hover::before, .single-footer-widget ul.list li a:focus::before {
   opacity: 1;
@@ -7886,6 +7894,16 @@ Introduction CSS
   }
   .how-it-works-image {
     display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .invert-section-left {
+    padding-left: 50px;
+    padding-right: 0;
+  }
+  .invert-section-right {
+    padding-right: 50px;
+    padding-left: 0;
   }
 }
 

@@ -20,12 +20,12 @@ export const valuesData = [
         aosDelay: '250'
     },
     {
-        image: '/images/about/values/card-5.png',
+        image: '/images/about/values/card-6.png',
         title: 'INVENTIVIDADE',
         aosDelay: '300'
     },
     {
-        image: '/images/about/values/card-6.png',
+        image: '/images/about/values/card-5.png',
         title: 'COMPROMISSO',
         aosDelay: '350'
     }
